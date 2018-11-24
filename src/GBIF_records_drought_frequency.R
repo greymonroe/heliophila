@@ -332,7 +332,7 @@ model_summaries<-data.frame()
 # non-phylogenetic logistic regression firth penalized
 species_means$life_history_num<-as.numeric(species_means$life_history)-1
 row.names(species_means)<-gsub(" ", "_", species_means$species)
-
+seasons<-c("Winter","Spring","Summer","Fall")
 for(s in 1:length(seasons)){
   fit1 <- logistf(species_means$life_history_num~species_means[,seasons[s]], firth = TRUE)
   sum<-summary(fit1)

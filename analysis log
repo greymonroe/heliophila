@@ -7,3 +7,31 @@ rows in raw GBIF data after eliminating records witn duplicate values of yr_lat_
 rows in raw GBIF data after choosing species with reasonable lat: 2381
 rows in raw GBIF data after choosing species with reasonable long:: 2272
 rows in raw GBIF data after choosing species with climate data (found on land): 2173
+rows in raw GBIF data after choosing species with reasonable lat: 2381
+rows in raw GBIF data after choosing species with climate data (found on land): 2256
+rows in raw GBIF data after choosing species with life history JGM: 6634
+rows in raw GBIF data after choosing records from preserved speciemns: 6421
+rows in raw GBIF data after choosing records with decimal lat: 2746
+rows in raw GBIF data after removing records with geospatial issues: 2723
+rows in raw GBIF data after eliminating records witn duplicate values of yr_lat_long_sp: 2385
+rows in raw GBIF data after choosing species with life history JGM: 6634
+rows in raw GBIF data after choosing records from preserved speciemns: 6421
+rows in raw GBIF data after choosing records with decimal lat: 2746
+rows in raw GBIF data after removing records with geospatial issues: 2723
+rows in raw GBIF data after eliminating records witn duplicate values of yr_lat_long_sp: 2385
+rows in raw GBIF data after choosing species with reasonable lat: 2381
+rows in raw GBIF data after choosing species with reasonable long:: 2272
+rows in raw GBIF data after choosing species with climate data (found on land): 2173
+rows in raw GBIF data after choosing species with life history JGM: 6634
+rows in raw GBIF data after choosing records from preserved speciemns: 6421
+rows in raw GBIF data after choosing records with decimal lat: 2746
+rows in raw GBIF data after removing records with geospatial issues: 2723
+rows in raw GBIF data after eliminating records witn duplicate values of yr_lat_long_sp: 2385
+rows in raw GBIF data after choosing species with reasonable lat: 2381
+rows in raw GBIF data after choosing species with reasonable long:: 2272
+rows in raw GBIF data after choosing species with climate data (found on land): 2173
+rows in raw GBIF data after choosing species with life history JGM: 6634
+rows in raw GBIF data after choosing records from preserved speciemns: 6421
+rows in raw GBIF data after choosing records with decimal lat: 2746
+rows in raw GBIF data after removing records with geospatial issues: 2723
+rows in raw GBIF data after eliminating records witn duplicate values of yr_lat_long_sp: 2385

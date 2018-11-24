@@ -1,0 +1,58 @@
+Please cite this data as follows, and pay attention to the rights documented in the rights.txt:
+Please respect the rights declared for each dataset in the download: 
+Staatliche Naturwissenschaftliche Sammlungen Bayerns: The Vascular Plant Collection at the Botanische Staatssammlung München doi:10.15468/vgr4kl
+National Herbarium of New South Wales (NSW). Online plant information. http://plantnet.rbgsyd.nsw.gov.au doi:10.15468/sbyjjw
+University of Vienna, Institute for Botany - Herbarium WU: University of Vienna, Institute for Botany - Herbarium WU doi:10.15468/tnj8wm
+Berkeley Natural History Museums: UCBG TAPIR Provider doi:10.15468/loyiz6
+EURISCO, the European PGR Search Catalogue                 http://eurisco.ecpgr.org/_1About/9Legal/index.php doi:10.15468/a3lnmd
+van Wijk Y (2015): GRBGT: Southern Cape Herbarium Specimen Collections (1882-2008). v1.1. South African National Biodiversity Institute. Dataset/Occurrence. http://197.189.235.147:8080/iptsanbi/resource?r=southern_cape_herbarium_garden_route_botanical_garden_trust&v=1.1 doi:10.15468/gcvvtr
+European Molecular Biology Laboratory (EMBL): Geographically tagged INSDC sequences doi:10.15468/cndomv
+Natural History Museum, University of Tartu: Natural History Museum, University of Tartu doi:10.15156/bio/587444
+SANBI doi:10.15468/rckmn2
+University of British Columbia Herbarium (UBC). http://dx.doi.org/10.5886/rtt57cc9. (consulted on [date]), doi:10.5886/rtt57cc9 doi:10.5886/rtt57cc9
+Senckenberg: Herbarium Senckenbergianum (FR) doi:10.15468/ucmdjy
+Eberhard Karls Universität Tübingen, The Vascular Plant Collection at the Herbarium Tubingense doi:10.15468/2wbxxh
+Bernice Pauahi Bishop Museum: Bernice P. Bishop Museum doi:10.15468/s6ctus
+Missouri Botanical Garden: Tropicos Specimen Data doi:10.15468/hja69f
+Department of Environment and Conservation, Western Australia: Swan Coastal Plain Survey doi:10.15468/e3g5na
+Herbaria of the University and ETH Zürich (Z+ZT): Herbaria of the University and ETH Zürich doi:10.15468/dg1xxz
+GBIF-Sweden: Phanerogamic Botanical Collections (S) doi:10.15468/yo3mmu
+GBIF-Sweden: Botany (UPS) doi:10.15468/ufmslw
+SysTax: SysTax - Botanical Gardens doi:10.15468/wem0v1
+Naturalis Biodiversity Center: Naturalis Biodiversity Center (NL) - Botany doi:10.15468/ib5ypt
+Instituto de Investigação Científica Tropical: IICT Herbário LISC doi:10.15468/iinlqm
+Field Museum: Field Museum of Natural History (Botany)  Seed Plant Collection doi:10.15468/nxnqzf
+SANBI doi:10.15468/vlr656
+George Safford Torrey Herbarium (CONN), University of Connecticut, http://bgbaseserver.eeb.uconn.edu/ doi:10.15468/w35jmd
+Royal Botanic Garden Edinburgh. (2016) Preserved Collections Database (E) doi:10.15468/ypoair
+OAC-Herbarium, Biodiversity Institute of Ontario from University of Guelph. http://dx.doi.org/10.5886/66f3rsta (accessed on [date]), doi:10.5886/66f3rsta doi:10.5886/66f3rsta
+South African National Biodiversity Institute: Precis Plant Data doi:10.15468/qfcykq
+MNHN - Museum national d'Histoire naturelle: Vascular plants collection (P) of the Muséum national d'Histoire Naturelle (MNHN - Paris) doi:10.15468/nc6rxy
+http://www.cpbr.gov.au/cpbr/herbarium doi:10.15468/9oxkif
+naturgucker.de: naturgucker doi:10.15468/uc1apo
+University of Arizona Herbarium (ARIZ) doi:10.15468/ub4try
+Lund Botanical Museum (LD): Lund Botanical Museum (LD) doi:10.15468/c4w4co
+Council of Heads of Australasian Herbaria (CHAH): Australia's Virtual Herbarium doi:10.15468/rhzrxw
+Landcare Research (2014-)  Allan Herbarium (CHR) specimen data. doi:10.15468/x5ucvh
+University of Graz, Institute of Plant Sciences: Karl Franzens University of Graz, Insitute for Botany - Herbarium GZU doi:10.15468/4oacx3
+Dep. Plant Biology, E.T.S.I. Agronomy, Univ. Politécnica de Madrid: Universidad Politécnica de Madrid, Dpto. Biología Vegetal, Banco de Germoplasma doi:10.15468/z5upgm
+Conservatoire et Jardin botaniques de la Ville de Genève. Geneva Herbarium – De Candolle's Prodromus (G-DC) doi:10.15468/s5auru
+GBIF-Sweden: The Bergius Herbarium doi:10.15468/mqwnmj
+Orrell T (2013): NMNH occurrence DwC-A. v8.9. National Museum of Natural History, Smithsonian Institution. Dataset/Occurrence. http://collections.nmnh.si.edu/ipt/resource?r=nmnhdwca&v=8.9 doi:10.15468/dipjcr
+Anthos. 2011[year of consultation]. Information System of the plants of Spain. Real Jardín Botánico, CSIC - Fundación Biodiversidad. Electronic resource at www.anthos.es. Consultation carried out in March 2011[date of consultation]. doi:10.15468/4wnutv
+Herbarium Hamburgense: HBGSpermatophyta - Herbarium Hamburgense doi:10.15468/uwxsd6
+Natural History Museum, University of Oslo: Vascular Plant Herbarium, Oslo (O) doi:10.15468/wtlymk
+SANBI doi:10.15468/wbw5v0
+Herbarium of Université de Montpellier 2, Institut de Botanique: Herbarium specimens of Université de Montpellier 2, Institut
+		de Botanique (MPU)) doi:10.15468/gyvkrn
+Conservatoire et Jardin botaniques de la Ville de Genève. Geneva Herbarium – General Collection (G) doi:10.15468/rvjdu1
+Natural History Museum Maastricht: Natural History Museum Maastricht (NL) - Herbarium doi:10.15468/npk1o5
+Natural History Museum, Vienna - Herbarium W: Natural History Museum, Vienna - Herbarium W doi:10.15468/5sl7sh
+Natural History Museum (2015): Collection specimens data.nhm.ac.uk., http://dx.doi.org/10.5519/0002965 doi:10.5519/0002965
+Botanic Garden and Botanical Museum Berlin-Dahlem: Staatliches Museum für Naturkunde Stuttgart, Herbarium doi:10.15468/s1f4aw
+Botanical Garden & Museum, Natural History Museum of Denmark: Botanical Museum, Copenhagen. Database of type specimens doi:10.15468/y8oyym
+Röpert D. (ed.) 2000+ [continuously updated]: Digital specimen images at the Herbarium Berolinense. - Published at http://ww2.bgbm.org/herbarium/default.cfm [accessed dd Mmm yyyy].     For reference to a specimen cite the stable identifier as shown on the specimen detail page   (e.g. http://herbarium.bgbm.org/object/B200072053).     For reference to an individual image, cite the barcode of the specimen as well as the image ID as shown on the image detail page. doi:10.15468/dlwwhz
+GBIF-Sweden: Gothenburg Herbarium - Types (GBIF:IH:GB:Herbarium) doi:10.15468/9hacmg
+Georg-August-Universität Göttingen, Albrecht-von-Haller-Institut für Pflanzenwissenschaften, Abteilung Systematische Botanik: Type herbarium, Göttingen (GOET) doi:10.15468/cft0di
+F.J. Salgueiro, S. Talavera et al. (2006). SEV collections online data bases doi:10.15468/ywbi5k
+http://apps.kew.org/herbcat/gotoCiteUs.do doi:10.15468/ly60bx

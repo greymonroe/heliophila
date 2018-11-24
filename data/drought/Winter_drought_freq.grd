@@ -1,0 +1,26 @@
+[general]
+creator=R package 'raster'
+created=2016-08-10 10:31:10
+[georeference]
+nrows=904
+ncols=2500
+xmin=-180
+ymin=-55.152
+xmax=180
+ymax=75.024
+projection=NA
+[data]
+datatype=FLT8S
+byteorder=little
+nbands=1
+bandorder=BIL
+categorical=FALSE
+minvalue=0
+maxvalue=0.967700191964898
+nodatavalue=-1.7e+308
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=layer

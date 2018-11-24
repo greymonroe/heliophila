@@ -1,0 +1,96 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="10112b19-2e18-4129-b472-18df75dce84c"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/gcvvtr</alternateIdentifier>
+    <alternateIdentifier>http://197.189.235.147:8080/iptsanbi/resource?r=southern_cape_herbarium_garden_route_botanical_garden_trust</alternateIdentifier>
+    <alternateIdentifier>10112b19-2e18-4129-b472-18df75dce84c</alternateIdentifier>
+    <alternateIdentifier>11954</alternateIdentifier>
+  <title>GRBGT: Southern Cape Herbarium Specimen Collections (1882-2008)</title>
+<creator>
+    <individualName>
+<givenName>Yvette</givenName>      <surName>van Wijk</surName>
+    </individualName>
+<organizationName>Southern Cape Herbarium (in partnership with the Garden Route Botanical Garden Trust)</organizationName><positionName>Honorary Curator</positionName>    <address>
+<deliveryPoint>Southern Cape Herbarium, Moriarty Environmental Centre, 49 Caledon Street</deliveryPoint><city>George</city><administrativeArea>Western Cape</administrativeArea><postalCode>6529.0</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>044-8501135</phone><electronicMailAddress>yvwijk@mweb.co.za</electronicMailAddress></creator>
+<metadataProvider>
+    <individualName>
+<givenName>Fhatani</givenName>      <surName>Ranwashe</surName>
+    </individualName>
+<organizationName>SANBI</organizationName><positionName>Data Technician</positionName>    <address>
+<deliveryPoint>Private Bag X7, Kirstenbosch</deliveryPoint><city>Claremont</city><administrativeArea>Western Cape</administrativeArea><postalCode>7735</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>021 799 8738</phone><electronicMailAddress>f.ramwashe@sanbi.org.za</electronicMailAddress></metadataProvider>
+<associatedParty>
+    <individualName>
+<givenName>Yvette</givenName>      <surName>van Wijk</surName>
+    </individualName>
+<organizationName>Southern Cape Herbarium (in partnership with the Garden Route Botanical Garden Trust)</organizationName><positionName>Honorary Curator</positionName>    <address>
+<deliveryPoint>Southern Cape Herbarium, Moriarty Environmental Centre, 49 Caledon Street</deliveryPoint><city>George</city><administrativeArea>Western Cape</administrativeArea><postalCode>6529.0</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>044-8501135</phone><electronicMailAddress>yvwijk@mweb.co.za</electronicMailAddress>    <role>USER</role>
+</associatedParty>
+<pubDate>
+        2016-01-04
+</pubDate>
+<language>ENGLISH</language>
+<abstract>
+  <para>Digitization of the Southern Cape Herbarium plant collections from the Garden Route Botanical Gardens.</para>
+</abstract>
+  <keywordSet>
+      <keyword>Occurrence, Indigenous plant species, Southern Cape, herbarium, plant specimen collection</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>Specimen</keyword>
+      <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <para>Creative Commons Attribution (CC-BY) 4.0 License</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>South Africa</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>17</westBoundingCoordinate>
+          <eastBoundingCoordinate>33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-13</northBoundingCoordinate>
+          <southBoundingCoordinate>-35</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>        1882-01-01
+</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>        2008-01-01
+</calendarDate>
+            </endDate>
+          </rangeOfDates>
+      </temporalCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+<givenName>Yvette</givenName>      <surName>van Wijk</surName>
+    </individualName>
+<organizationName>Southern Cape Herbarium (in partnership with the Garden Route Botanical Garden Trust)</organizationName><positionName>Honorary Curator</positionName>    <address>
+<deliveryPoint>Southern Cape Herbarium, Moriarty Environmental Centre, 49 Caledon Street</deliveryPoint><city>George</city><administrativeArea>Western Cape</administrativeArea><postalCode>6529</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>044-8501135</phone><electronicMailAddress>yvwijk@mweb.co.za</electronicMailAddress>  </contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2016-01-04T02:10:48.920+01:00</dateStamp>
+        <citation>van Wijk Y (2015): GRBGT: Southern Cape Herbarium Specimen Collections (1882-2008). v1.1. South African National Biodiversity Institute. Dataset/Occurrence. http://197.189.235.147:8080/iptsanbi/resource?r=southern_cape_herbarium_garden_route_botanical_garden_trust&amp;v=1.1</citation>
+        <resourceLogoUrl>http://197.189.235.147:8080/iptsanbi/logo.do?r=southern_cape_herbarium_garden_route_botanical_garden_trust</resourceLogoUrl>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

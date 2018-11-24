@@ -1,0 +1,38 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="51b92d4e-556f-4a05-bc5c-bfe982ee1156"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/loyiz6</alternateIdentifier>
+    <alternateIdentifier>1412</alternateIdentifier>
+  <title>UCBG TAPIR Provider</title>
+<creator>
+</creator>
+<metadataProvider>
+</metadataProvider>
+<associatedParty>
+<positionName>[system administrator]</positionName><electronicMailAddress>jdeck@berkeley.edu</electronicMailAddress></associatedParty>
+<language>en</language>
+<abstract>
+  <para>UCBG TAPIR Provider</para>
+</abstract>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://tapirlink.berkeley.edu/tapir.php/UCBG</url>
+    </online>
+  </distribution>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-05-13T12:00:27.719+02:00</dateStamp>
+        <citation>Berkeley Natural History Museums: UCBG TAPIR Provider</citation>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

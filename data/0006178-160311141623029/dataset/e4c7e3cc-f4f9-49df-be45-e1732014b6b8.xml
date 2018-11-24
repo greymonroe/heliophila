@@ -1,0 +1,106 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="e4c7e3cc-f4f9-49df-be45-e1732014b6b8"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/mqwnmj</alternateIdentifier>
+    <alternateIdentifier>http://www.gbif.se/ipt/resource?r=sbt-herbarium</alternateIdentifier>
+    <alternateIdentifier>e4c7e3cc-f4f9-49df-be45-e1732014b6b8</alternateIdentifier>
+  <title>The Bergius Herbarium</title>
+<creator>
+    <individualName>
+<givenName>Manash</givenName>      <surName>Shah</surName>
+    </individualName>
+<organizationName>Swedish Museum of Natural History</organizationName><positionName>Database Developer</positionName>    <address>
+<city>Stockholm</city><country>SWEDEN</country>    </address>
+<electronicMailAddress>manash.shah@nrm.se</electronicMailAddress></creator>
+<metadataProvider>
+    <individualName>
+<givenName>Niklas</givenName>      <surName>Wikström</surName>
+    </individualName>
+<organizationName>The Bergius Foundation, the Royal Swedish Academy of Sciences</organizationName><positionName>Researcher / Bioinfomatician</positionName>    <address>
+<city>Stockholm</city><country>SWEDEN</country>    </address>
+<electronicMailAddress>niklas@bergianska.se</electronicMailAddress></metadataProvider>
+<associatedParty>
+    <individualName>
+<givenName>Niklas</givenName>      <surName>Wikström</surName>
+    </individualName>
+<organizationName>The Bergius Foundation, the Royal Swedish Academy of Sciences</organizationName><positionName>Researcher / Bioinfomatician</positionName>    <address>
+<city>Stockholm</city><country>SWEDEN</country>    </address>
+<electronicMailAddress>niklas@bergianska.se</electronicMailAddress>    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+</associatedParty>
+<pubDate>
+        2016-01-07
+</pubDate>
+<language>ENGLISH</language>
+<abstract>
+  <para>The Bergius Herbarium is the Bergius Foundations historical collection. It consists mainly of P.J. Bergius own collection with some additions made by the two first Professor Bergiani, O. Swartz and J.E. Wikström. The last accessions were made in 1856. The Bergius Herbarium includes specimens of angiosperms, gymnosperms, algae, bryophytes, fungi and lichens, including some type specimens. Important collectors are C.P. Thunberg, M. Grubb, D. Rolander, P. Osbeck, C.H. Wänman, C.G. Ekeberg, and O. Swartz. There are some 18000 specimens in the Bergius Herbarium, of which about 7200 are included in the dataset.</para>
+</abstract>
+  <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>Specimen</keyword>
+      <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>Specimen</keyword>
+      <keyword>Type</keyword>
+      <keyword>Historical herbarium</keyword>
+      <keyword>Angiosperms</keyword>
+      <keywordThesaurus>Not Applicable</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <para>Public Domain (CC0 1.0)</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Specimens mainly from South Africa, West Indies, North America, South America, East Asia, and Europe</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>-90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+      </temporalCoverage>
+      <temporalCoverage>
+      </temporalCoverage>
+        <taxonomicCoverage>
+            <generalTaxonomicCoverage>Angiosperms, gymnosperms, lycophytes, algae, bryophytes, fungi and lichen</generalTaxonomicCoverage>
+            <taxonomicClassification>
+                <taxonRankName>Kingdom</taxonRankName>
+              <taxonRankValue>Plantae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Kingdom</taxonRankName>
+              <taxonRankValue>Fungi</taxonRankValue>
+            </taxonomicClassification>
+        </taxonomicCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+<givenName>Anders</givenName>      <surName>Telenius</surName>
+    </individualName>
+<organizationName>Swedish Museum of Natural History</organizationName><positionName>Node manager</positionName>    <address>
+<city>Stockholm</city><country>SWEDEN</country>    </address>
+<electronicMailAddress>anders.telenius@nrm.se</electronicMailAddress>  </contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2016-01-07T01:43:15.361+01:00</dateStamp>
+        <citation>GBIF-Sweden: The Bergius Herbarium</citation>
+        <formationPeriod>1750-1856</formationPeriod>
+        <livingTimePeriod>1750-1856</livingTimePeriod>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

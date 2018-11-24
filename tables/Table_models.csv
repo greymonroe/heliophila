@@ -1,0 +1,17 @@
+"","method","season","coefficients","p"
+"(Intercept)","firth","Winter",2.27510876445183,0.170941635749062
+"species_means[, seasons[s]]","firth","Winter",-6.79918562805172,0.163176904271267
+"(Intercept)1","firth","Spring",4.54813274737294,0.0440867396515517
+"species_means[, seasons[s]]1","firth","Spring",-11.7646722481325,0.0420080379236552
+"(Intercept)2","firth","Summer",7.16329933565628,0.0011399875230198
+"species_means[, seasons[s]]2","firth","Summer",-18.2697533373229,0.000995996636583341
+"(Intercept)3","firth","Fall",6.46923651614327,0.00273159268966827
+"species_means[, seasons[s]]3","firth","Fall",-19.2074243246496,0.00241990467180486
+"(Intercept)4","phylo_log","Winter",0.727075495430367,0.662183509150786
+"species_means[, seasons[s]]4","phylo_log","Winter",-1.56039662560812,0.725119263979037
+"(Intercept)5","phylo_log","Spring",4.99479096233884,0.0533372247670702
+"species_means[, seasons[s]]5","phylo_log","Spring",-12.8691911102319,0.0461921081588469
+"(Intercept)6","phylo_log","Summer",5.39049470823826,0.0258274853997791
+"species_means[, seasons[s]]6","phylo_log","Summer",-13.8618858079064,0.0204179952835768
+"(Intercept)7","phylo_log","Fall",4.60143217194725,0.043465683026219
+"species_means[, seasons[s]]7","phylo_log","Fall",-13.6852875570614,0.036204063372791

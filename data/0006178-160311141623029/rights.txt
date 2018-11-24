@@ -1,0 +1,169 @@
+
+
+Dataset: The Vascular Plant Collection at the Botanische Staatssammlung München
+Rights as supplied: © Botanische Staatssammlung München
+
+Dataset: NSW herbarium collection
+Rights as supplied: Not supplied
+
+Dataset: University of Vienna, Institute for Botany - Herbarium WU
+Rights as supplied: Not supplied
+
+Dataset: UCBG TAPIR Provider
+Rights as supplied: Not supplied
+
+Dataset: EURISCO, The European Genetic Resources Search Catalogue
+Rights as supplied: You may access and use the Information only if you agree to and abide by the terms of this Agreement. Permission is granted to access and use the Information from this site, provided that:                 http://eurisco.ecpgr.org/_1About/9Legal/index.php. Copyright laws and treaty provisions protect information appearing on this site ("Information"). Bioversity International (former IPGRI) or the original provider of the Information holds the copyright on such information. None of the Information may be copied, reproduced, modified, published, up/downloaded, posted, retransmitted, sold, broadcast, circulated or distributed in any form or by any means other than as described below, or with prior written permission of the copyright holder, Bioversity International or the original provider.                 http://eurisco.ecpgr.org/_1About/9Legal/index.php.
+
+Dataset: GRBGT: Southern Cape Herbarium Specimen Collections (1882-2008)
+Rights as supplied: Creative Commons Attribution (CC-BY) 4.0 License
+
+Dataset: Geographically tagged INSDC sequences
+Rights as supplied: Not supplied
+
+Dataset: Natural History Museum, University of Tartu
+Rights as supplied: Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License
+
+Dataset: PRECIS
+Rights as supplied: Not supplied
+
+Dataset: University of British Columbia Herbarium (UBC) - Vascular Plant Collection, doi:10.5886/rtt57cc9
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: Herbarium Senckenbergianum (FR)
+Rights as supplied: Not supplied
+
+Dataset: The Vascular Plant Collection at the Herbarium Tubingense
+Rights as supplied: © Eberhard Karls Universität Tübingen
+
+Dataset: Bernice P. Bishop Museum
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0 and http://vertnet.org/resources/norms.html
+
+Dataset: Tropicos Specimen Data
+Rights as supplied: Creative Commons Attribution (CC-BY) 4.0 License
+
+Dataset: Swan Coastal Plain Survey
+Rights as supplied: Not supplied
+
+Dataset: Herbaria of the University and ETH Zürich
+Rights as supplied: Herbarium of the University of Zurich
+
+Dataset: Phanerogamic Botanical Collections (S)
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: Botany (UPS)
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: SysTax - Botanical Gardens
+Rights as supplied: Not supplied
+
+Dataset: Naturalis Biodiversity Center (NL) - Botany
+Rights as supplied: This work is licensed under a Creative Commons CCZero 1.0 License http://creativecommons.org/publicdomain/zero/1.0/legalcode.
+
+Dataset: IICT Herbário LISC
+Rights as supplied: Use of the data for commercial or for-profit applications are permitted only via written permission from Instituto de Investigação Científica Tropical. Data are provided to users, but should not be passed on to third parties or redistributed. It is explicitly forbidden to incorporate these data into other databases of free or restricted access.
+
+Dataset: Field Museum of Natural History (Botany)  Seed Plant Collection
+Rights as supplied: Copyright © 2012 The Field Museum of Natural History
+Full details may be found at http://fieldmuseum.org/about/copyright-information
+
+Dataset: Millenium Seedbank (MSB)
+Rights as supplied: Not supplied
+
+Dataset: CONN, http://bgbaseserver.eeb.uconn.edu/
+Rights as supplied: Not supplied
+
+Dataset: Royal Botanic Garden Edinburgh Herbarium (E)
+Rights as supplied: Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use. 
+http://creativecommons.org/licenses/by-nc/3.0/
+
+Dataset: OAC-BIO Herbarium, doi:10.5886/66f3rsta
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: Precis Plant Data
+Rights as supplied: Not supplied
+
+Dataset: Vascular plants collection (P) of the Muséum national d'Histoire Naturelle (MNHN - Paris)
+Rights as supplied: Not supplied
+
+Dataset: Australian National Herbarium (CANB)
+Rights as supplied: Not supplied
+
+Dataset: naturgucker
+Rights as supplied: Not supplied
+
+Dataset: UA Herbarium
+Rights as supplied: ARIZ data records may be used by individual researchers or research groups for non-commercial purposes. These data may not be repackaged, resold, or redistributed in any form without the express written consent of the Curator, Collection Manager or Director of the University of Arizona Herbarium. If any of these records are used in an analysis, report or publication, the provenance of the original data must be acknowledged and the University of Arizona Herbarium notified. ARIZ or its staff are not responsible for damages, injury or loss due to the use of this data.
+
+Dataset: Lund Botanical Museum (LD)
+Rights as supplied: Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License
+
+Dataset: Australia's Virtual Herbarium
+Rights as supplied: Not supplied
+
+Dataset: Allan Herbarium (CHR)
+Rights as supplied: Creative Commons Attribution (CC-BY) 4.0 License
+
+Dataset: Karl Franzens University of Graz, Insitute for Botany - Herbarium GZU
+Rights as supplied: Not supplied
+
+Dataset: Universidad Politécnica de Madrid, Dpto. Biología Vegetal, Banco de Germoplasma
+Rights as supplied: Not supplied
+
+Dataset: Geneva Herbarium – De Candolle's Prodromus (G-DC)
+Rights as supplied: The use of the data is allowed only for non-profit scientific use and for non-profit nature conservation purpose.
+
+Dataset: The Bergius Herbarium
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: NMNH occurrence DwC-A
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: Fundación Biodiversidad, Real Jardín Botánico (CSIC): Anthos. Sistema de Información de las plantas de España
+Rights as supplied: Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License
+
+Dataset: HBGSpermatophyta - Herbarium Hamburgense
+Rights as supplied: Not supplied
+
+Dataset: Vascular Plant Herbarium, Oslo (O)
+Rights as supplied: Creative Commons Attribution (CC-BY) 4.0 License
+
+Dataset: PRECIS (KwaZulu-Natal Herbarium)
+Rights as supplied: Not supplied
+
+Dataset: Herbarium specimens of Université de Montpellier 2, Institut
+		de Botanique (MPU))
+Rights as supplied: Not supplied
+
+Dataset: Geneva Herbarium – General Collection (G)
+Rights as supplied: The use of the data is allowed only for non-profit scientific use and for non-profit nature conservation purpose.
+
+Dataset: Natural History Museum Maastricht (NL) - Herbarium
+Rights as supplied: Terms of use NHMM data: All rights on these data belong to the Natural History Museum Maastricht. Please contact the NHMM principal curator before secondary usage of data in electronic or printed form.
+
+Dataset: Natural History Museum, Vienna - Herbarium W
+Rights as supplied: Not supplied
+
+Dataset: Natural History Museum (London) Collection Specimens, http://dx.doi.org/10.5519/0002965
+Rights as supplied: This work is licensed under a Creative Commons CCZero License/Waiver.
+
+Dataset: Staatliches Museum für Naturkunde Stuttgart, Herbarium
+Rights as supplied: Not supplied
+
+Dataset: Botanical Museum, Copenhagen. Database of type specimens
+Rights as supplied: GBIF Data Sharing Agreement is applied.  GBIF Data Use Agreement is applied.
+
+Dataset: Herbarium Berolinense
+Rights as supplied: Not supplied
+
+Dataset: Gothenburg Herbarium - Types (GBIF:IH:GB:Herbarium)
+Rights as supplied: Public Domain (CC0 1.0)
+
+Dataset: Type herbarium, Göttingen (GOET)
+Rights as supplied: Not supplied
+
+Dataset: Herbario de la Universidad de Sevilla, SEV-Historico
+Rights as supplied: Not supplied
+
+Dataset: Royal Botanic Gardens, Kew - Herbarium Specimens
+Rights as supplied: Not supplied

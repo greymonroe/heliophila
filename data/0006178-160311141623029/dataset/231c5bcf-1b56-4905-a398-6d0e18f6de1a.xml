@@ -1,0 +1,165 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="231c5bcf-1b56-4905-a398-6d0e18f6de1a"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/iinlqm</alternateIdentifier>
+    <alternateIdentifier>http://maerua.iict.pt/ipt/resource.do?r=lisc</alternateIdentifier>
+    <alternateIdentifier>231c5bcf-1b56-4905-a398-6d0e18f6de1a</alternateIdentifier>
+    <alternateIdentifier>15021</alternateIdentifier>
+  <title>IICT Herbário LISC</title>
+<creator>
+    <individualName>
+<givenName>Rui</givenName>      <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto de Investigação Científica Tropical</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Trav. Conde da Ribeira 9</deliveryPoint><city>Lisboa</city><postalCode>1300-142</postalCode><country>PORTUGAL</country>    </address>
+<phone>+351-213616340</phone><electronicMailAddress>rui.figueira@iict.pt</electronicMailAddress><onlineUrl>http://maerua.iict.pt/colecoes</onlineUrl></creator>
+<metadataProvider>
+    <individualName>
+<givenName>Rui</givenName>      <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto de Investigação Científica Tropical</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Trav. Conde da Ribeira 9</deliveryPoint><city>Lisboa</city><postalCode>1300-142</postalCode><country>PORTUGAL</country>    </address>
+<phone>+351-213616340</phone><electronicMailAddress>rui.figueira@iict.pt</electronicMailAddress><onlineUrl>http://maerua.iict.pt/colecoes</onlineUrl></metadataProvider>
+<associatedParty>
+    <individualName>
+<givenName>Maria Cristina</givenName>      <surName>Duarte</surName>
+    </individualName>
+<organizationName>Instituto de Investigação Científica Tropical</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Trav. Conde da Ribeira 9</deliveryPoint><city>Lisboa</city><postalCode>1300-142</postalCode><country>PORTUGAL</country>    </address>
+<phone>+351-213616340</phone><electronicMailAddress>mcduarte@iict.pt</electronicMailAddress><onlineUrl>http://www.iict.pt/jbt</onlineUrl>    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+</associatedParty>
+<associatedParty>
+    <individualName>
+<givenName>Rui</givenName>      <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto de Investigação Científica Tropical</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Trav. Conde da Ribeira 9</deliveryPoint><city>Lisboa</city><postalCode>1300-142</postalCode><country>PORTUGAL</country>    </address>
+<phone>+351-213616340</phone><electronicMailAddress>rui.figueira@iict.pt</electronicMailAddress><onlineUrl>http://maerua.iict.pt/colecoes</onlineUrl>    <role>CONTENT_PROVIDER</role>
+</associatedParty>
+<pubDate>
+        2014-01-02
+</pubDate>
+<language>PORTUGUESE</language>
+<abstract>
+  <para>The Herbarium LISC holds more than 300 000 specimens, and a large number of duplicates to exchange with other herbaria. The main collections represented are: from Angola J.M. Antunes, E. Dekindt, John Gossweiler, J.M. Brito Teixeira and from the Mission of Foresty Studies of Angola; L.A. Grandvaux Barbosa, from Cape Verde, Angola e Mozambique; J. Espírito Santo, from S. Tomé and Príncipe, and Guinea-Bissau; E.J. Mendes, from Angola; F.A. Mendonça and A.R. Torre, from Angola and Mozambique; Exell, Mendonça &amp; Wild, from Mozambique, Zambia and Zimbabwe; Schlieben, from Tanzania; G.C. de Matos, from Cape Verde, J.G. Garcia, from Mozambique; G.M.P.C. Le Testu from Western Africa; E. Figueiredo, from S. Tomé and Príncipe, L. Catarino, from Guinea-Bissau; M.A. Diniz, from Guinea-Bissau, Mozambique and Cape Verde; E.S. Martins, from Angola, Cape Verde and Guinea-Bissau; M.C. Duarte from Cape Verde; and J. Simão, from Mozambique. The collections from Angola, Cape Verde, Guinea-Bissau, Mozambique and S. Tomé and Principe are among the largest at world scale. The digitising process is ongoing, which will result in new additions to this resource in the near future.</para>
+</abstract>
+  <keywordSet>
+      <keyword>Cape Verde</keyword>
+      <keyword>herbarium</keyword>
+      <keyword>Guinea-Bissau</keyword>
+      <keyword>Angola</keyword>
+      <keyword>Mozambique</keyword>
+      <keyword>vascular plants</keyword>
+      <keyword>São Tomé and Príncipe</keyword>
+      <keyword>specimen</keyword>
+      <keyword>Occurrence</keyword>
+      <keyword>tropical flora</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>Specimen</keyword>
+      <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <para>Use of the data for commercial or for-profit applications are permitted only via written permission from Instituto de Investigação Científica Tropical. Data are provided to users, but should not be passed on to third parties or redistributed. It is explicitly forbidden to incorporate these data into other databases of free or restricted access.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://maerua.iict.pt/colecoes</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Worldwide collection, but with main focus on the Portuguese Speaking countries, namely Angola, Cape Verde, East Timor, Guinea-Bissau, Mozambique and Sao Tome and Principe.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-22.5</westBoundingCoordinate>
+          <eastBoundingCoordinate>146.953</eastBoundingCoordinate>
+          <northBoundingCoordinate>53.348</northBoundingCoordinate>
+          <southBoundingCoordinate>-37.696</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>        1837-01-01
+</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>        2010-09-25
+</calendarDate>
+            </endDate>
+          </rangeOfDates>
+      </temporalCoverage>
+        <taxonomicCoverage>
+            <generalTaxonomicCoverage>All vascular plants generally identified to species.</generalTaxonomicCoverage>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Tracheophyta</taxonRankValue>
+                <commonName>Vascular Plants</commonName>
+            </taxonomicClassification>
+        </taxonomicCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+<givenName>Rui</givenName>      <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto de Investigação Científica Tropical</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Trav. Conde da Ribeira 9</deliveryPoint><city>Lisboa</city><postalCode>1300-142</postalCode><country>PORTUGAL</country>    </address>
+<phone>+351-213616340</phone><electronicMailAddress>rui.figueira@iict.pt</electronicMailAddress><onlineUrl>http://maerua.iict.pt/colecoes</onlineUrl>  </contact>
+  <methods>
+      <methodStep>
+        <description>
+          <para>Data cataloguing was originally done using Specify ver 6. The insertion was supported by taxonomy lists produced at the first stage from African Plants Initiative and Plants of Angola, in order to update taxa names to accepted names. The insertion of many fields was done using controlled vocabularies whenever possible, but for determination, locality, a verbatim version of the information was also kept in the database.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>NA</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>NA</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Regular quality cycles were performed on the inserted data selected at random, starting at 5% revision rate, with increased adjustments on this rate in function of the error rate.</para>
+        </description>
+      </qualityControl>
+  </methods>
+
+    <project>
+      <title>LISCDigital</title>
+      <personnel>
+    <individualName>
+<givenName>Rui</givenName>      <surName>Figueira</surName>
+    </individualName>
+    <role>PRINCIPAL_INVESTIGATOR</role>
+      </personnel>
+      <funding>
+        <para>Digitization has benefit from funds from several sources: from FCT, the Portuguese National research Council, contracts: PTDC/BIA-QOR/66702/2006, HC/0046/2009; from Andrew Mellon Foundation, LISTYPES – Digitizing African Types at Lisbon Herbaria (LISC and LISU).</para>
+      </funding>
+    </project>
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-07-29T03:07:20.835+02:00</dateStamp>
+        <citation>Instituto de Investigação Científica Tropical: IICT Herbário LISC</citation>
+        <resourceLogoUrl>http://www2.iict.pt/imagens/simbolo.gif</resourceLogoUrl>
+        <collection>
+          <parentCollectionIdentifier>Not applicable</parentCollectionIdentifier>
+          <collectionIdentifier>69d62413-879d-452a-a16d-e75a87bf4e84</collectionIdentifier>
+          <collectionName>IICT Herbário LISC</collectionName>
+        </collection>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

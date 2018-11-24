@@ -1,0 +1,55 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="8cb875f5-9526-4478-a240-62a17f02cd71"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/e3g5na</alternateIdentifier>
+    <alternateIdentifier>43d13549-d760-32a7-a46c-441fb7ffbeaa</alternateIdentifier>
+    <alternateIdentifier>14111</alternateIdentifier>
+  <title>Swan Coastal Plain Survey</title>
+<creator>
+<organizationName>NatureMap</organizationName><onlineUrl>http://naturemap.dec.wa.gov.au/default.aspx</onlineUrl></creator>
+<metadataProvider>
+<organizationName>NatureMap</organizationName><onlineUrl>http://naturemap.dec.wa.gov.au/default.aspx</onlineUrl></metadataProvider>
+<associatedParty>
+<organizationName>Western Australia, Department of Parks and Wildlife</organizationName>    <address>
+<deliveryPoint>168 St Georges Terrace</deliveryPoint><city>Perth</city><administrativeArea>Western Australia</administrativeArea><postalCode>6000</postalCode><country>AUSTRALIA</country>    </address>
+<phone>(08) 6467 5000</phone><electronicMailAddress>info@dec.wa.gov.au</electronicMailAddress><onlineUrl>http://www.dpaw.wa.gov.au/</onlineUrl>    <role>ORIGINATOR</role>
+</associatedParty>
+<associatedParty>
+<organizationName>Atlas of Living Australia</organizationName>    <address>
+<deliveryPoint>CSIRO Ecosystems Services</deliveryPoint><city>Canberra</city><administrativeArea>ACT</administrativeArea><postalCode>2605</postalCode><country>AUSTRALIA</country>    </address>
+<electronicMailAddress>info@ala.org.au</electronicMailAddress>    <role>DISTRIBUTOR</role>
+</associatedParty>
+<pubDate>
+        2013-08-16
+</pubDate>
+<language>ENGLISH</language>
+<abstract>
+  <para>Gibson, N., Keighery, B., Keighery, G., Burbidge, A., and Lyons, M. 1994. A Floristic Survey of the southern Swan Coastal Plain. Unpublished report for the Australian Heritage Commission prepared by the Department of Conservation and Land Management</para>
+</abstract>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://collections.ala.org.au/public/show/dr672</url>
+    </online>
+  </distribution>
+  <contact>
+    <individualName>
+<givenName>Neil</givenName>      <surName>Gibson</surName>
+    </individualName>
+<positionName>editor</positionName>  </contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-07-31T05:12:01.800+02:00</dateStamp>
+        <citation>Department of Environment and Conservation, Western Australia: Swan Coastal Plain Survey</citation>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

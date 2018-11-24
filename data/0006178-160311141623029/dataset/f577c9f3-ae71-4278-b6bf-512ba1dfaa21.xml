@@ -1,0 +1,53 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="f577c9f3-ae71-4278-b6bf-512ba1dfaa21"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/rvjdu1</alternateIdentifier>
+  <title>Geneva Herbarium – General Collection (G)</title>
+<creator>
+</creator>
+<metadataProvider>
+</metadataProvider>
+<associatedParty>
+    <address>
+    </address>
+<electronicMailAddress>herb-phanero.cjb@ville-ge.ch</electronicMailAddress>    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+</associatedParty>
+<associatedParty>
+    <address>
+    </address>
+<electronicMailAddress>raoul.palese@ville-ge.ch</electronicMailAddress>    <role>TECHNICAL_POINT_OF_CONTACT</role>
+</associatedParty>
+<language>en</language>
+<abstract>
+  <para>The General Collection of the Geneva Herbarium is estimated to contain 6 million specimens of plants (vascular plants, bryophytes and «algae»), fungi (Basidiomycetes, Ascomycetes, lichens), Oomycetes and Myxomycetes from around the world. The history of this collection began with the gift of the Haller filius herbarium in 1823. But it was with the arrival of the Benjamin Delessert herbarium collection in 1869 (300´000 specimens from across the world) that the Conservatoire botanique acquired its true international status. Subsequent collections have enriched the General Collection, whose growth continues by exchanges, gifts and acquisitions, and through collecting by the Institution’s botanists.</para>
+</abstract>
+  <intellectualRights>
+    <para>The use of the data is allowed only for non-profit scientific use and for non-profit nature conservation purpose.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://www.ville-ge.ch/cjb/bd.php#catherb</url>
+    </online>
+  </distribution>
+  <contact>
+    <address>
+    </address>
+<electronicMailAddress>herb-phanero.cjb@ville-ge.ch</electronicMailAddress>  </contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2016-01-28T04:35:25.573+01:00</dateStamp>
+        <citation>Conservatoire et Jardin botaniques de la Ville de Genève. Geneva Herbarium – General Collection (G)</citation>
+        <resourceLogoUrl>http://data.gbif.ch/gbif-portal/institutions/23/logo</resourceLogoUrl>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

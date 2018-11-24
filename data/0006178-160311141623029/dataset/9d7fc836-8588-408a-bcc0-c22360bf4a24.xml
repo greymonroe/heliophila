@@ -1,0 +1,31 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="9d7fc836-8588-408a-bcc0-c22360bf4a24"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/qfcykq</alternateIdentifier>
+    <alternateIdentifier>13505</alternateIdentifier>
+  <title>Precis Plant Data</title>
+<creator>
+</creator>
+<metadataProvider>
+</metadataProvider>
+<language>en</language>
+<abstract>
+  <para>PRECIS (National Herbarium Pretoria (PRE) Computerised Information System) is based at the National Herbarium in Pretoria. The mission of PRECIS is to develop, maintain, and expand an electronic database system on southern African plants (the region south of the Limpopo and Kunene Rivers) to provide an efficient customer-driven information service and to produce electronic and publishable products.</para>
+</abstract>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-10-16T02:01:11.882+02:00</dateStamp>
+        <citation>South African National Biodiversity Institute: Precis Plant Data</citation>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

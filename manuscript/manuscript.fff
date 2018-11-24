@@ -1,0 +1,14 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{manuscript_files/figure-latex/foo-1.pdf}
+\caption{\label{fig:foo}This is my figure caption.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{manuscript_files/figure-latex/bar-1.pdf}
+\caption{\label{fig:bar}This is my second figure caption.}
+\end{figure*}

@@ -1,0 +1,38 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="ffab0ec5-c5f9-4c26-9b63-28696dc5cac5"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/vlr656</alternateIdentifier>
+    <alternateIdentifier>12714</alternateIdentifier>
+  <title>Millenium Seedbank (MSB)</title>
+<creator>
+</creator>
+<metadataProvider>
+</metadataProvider>
+<language>en</language>
+<abstract>
+  <para>MSB (Millenium Seedbank) from SANBI.</para>
+</abstract>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://www.sabif.ac.za:8080/tapirlink/www/tapir.php/MSB</url>
+    </online>
+  </distribution>
+  <contact>
+<positionName>system administrator</positionName><phone>+27217998698</phone><electronicMailAddress>f.parker@sanbi.org.za</electronicMailAddress>  </contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-05-13T11:59:59.668+02:00</dateStamp>
+        <citation>SANBI</citation>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

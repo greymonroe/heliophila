@@ -1,0 +1,174 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="68829f71-56b1-4015-a363-ef8f0e1d6e4f"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.5886/66f3rsta</alternateIdentifier>
+    <alternateIdentifier>http://data.canadensys.net/ipt/resource?r=oac-specimens</alternateIdentifier>
+    <alternateIdentifier>doi:10.15468/8izfsm</alternateIdentifier>
+    <alternateIdentifier>http://data.canadensys.net/ipt/resource.do?r=oac-specimens</alternateIdentifier>
+    <alternateIdentifier>68829f71-56b1-4015-a363-ef8f0e1d6e4f</alternateIdentifier>
+  <title>OAC-BIO Herbarium</title>
+<creator>
+    <individualName>
+<givenName>Subramanyam</givenName>      <surName>Ragupathy</surName>
+    </individualName>
+<organizationName>University of Guelph</organizationName><positionName>Chief Curator</positionName>    <address>
+<deliveryPoint>University of Guelph, 50 Stone Rd</deliveryPoint><city>Guelph</city><administrativeArea>ON</administrativeArea><postalCode>N1G2W1</postalCode><country>CANADA</country>    </address>
+<phone>(519) 837-7844</phone><electronicMailAddress>ragu@uoguelph.ca</electronicMailAddress></creator>
+<metadataProvider>
+    <individualName>
+<givenName>Subramanyam</givenName>      <surName>Ragupathy</surName>
+    </individualName>
+<organizationName>University of Guelph</organizationName><positionName>Chief Curator</positionName>    <address>
+<deliveryPoint>University of Guelph, 50 Stone Rd</deliveryPoint><city>Guelph</city><administrativeArea>ON</administrativeArea><postalCode>N1G2W1</postalCode><country>CANADA</country>    </address>
+<phone>(519) 837-7844</phone><electronicMailAddress>ragu@uoguelph.ca</electronicMailAddress></metadataProvider>
+<associatedParty>
+<organizationName>University of Guelph</organizationName>    <address>
+<administrativeArea>Ontario</administrativeArea><country>CANADA</country>    </address>
+    <role>PUBLISHER</role>
+</associatedParty>
+<associatedParty>
+    <individualName>
+<givenName>Subramanyam</givenName>      <surName>Ragupathy</surName>
+    </individualName>
+<organizationName>University of Guelph</organizationName><positionName>Chief Curator</positionName>    <address>
+<deliveryPoint>University of Guelph, 50 Stone Rd</deliveryPoint><city>Guelph</city><administrativeArea>ON</administrativeArea><postalCode>N1G2W1</postalCode><country>CANADA</country>    </address>
+<phone>5198377844</phone><electronicMailAddress>ragu@uoguelph.ca</electronicMailAddress>    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+</associatedParty>
+<pubDate>
+        2016-02-15
+</pubDate>
+<language>ENGLISH</language>
+<abstract>
+  <para>The BIO Herbarium at the University of Guelph houses approximately 100,000 (image data for 65,535) herbarium specimens, collected from all around the world. The collection provides excellent coverage in ethnobotanical notes and houses vouchers for the Flora Ontario Integrated Botanical Information System (FOIBIS). The collection also contains DNA Barcoding vouchers for the Center for Biodiversity Intitute of Ontario (CBG) of the Biodiversity Institute of Ontario. BIO Herbarium is committed to making this important collection more accessible to botanists and others, wherever they may be, for use in their own projects: particularly in biodiversity, conservation, sustainable development and systematics. To this end we have developed HIMS, which contains labelled information and images of all the specimens at the BIO Herbarium.</para>
+</abstract>
+  <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>Specimen</keyword>
+      <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+      <keyword>OAC; OAC-BIO herbarium; University of Guelph Arboretum; Barcode of Life Collections; Ontario; Collections; Herbarium; Specimens; Medicinal Plant Collections; Weeds of Ontario; Cnanadensys; Occurrence; Crops collection</keyword>
+      <keywordThesaurus>n/a</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <para>Public Domain (CC0 1.0)</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://www.uoguelph.ca/foibis/hims/index.html</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>The Ontario Agricultural College was instrumental in establishing the OAC Herbarium and hence the collection reflects this history with an impressive collection of weeds (Pre -1800). Most of these collections are vouchers from current research projects including the Flora Ontario project. However, there are smaller collections within the herbarium that arm from research initiatives across the globe.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-166.09</westBoundingCoordinate>
+          <eastBoundingCoordinate>-63.12</eastBoundingCoordinate>
+          <northBoundingCoordinate>82.83</northBoundingCoordinate>
+          <southBoundingCoordinate>42.19</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+        <taxonomicCoverage>
+            <generalTaxonomicCoverage>This dataset includes Plantae- vascular and non-vascular plant specimens from the OAC-BIO Herbarium, Biodiversity Institute of Ontario, University of Guelph teaching collection that have been digitized, databased (partially). 
+Major groups are: Lichens, Bryophytes, Pteridophytes, Gymnosperms and Angiosperms.</generalTaxonomicCoverage>
+            <taxonomicClassification>
+                <taxonRankName>Kingdom</taxonRankName>
+              <taxonRankValue>Plantae</taxonRankValue>
+            </taxonomicClassification>
+        </taxonomicCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+<givenName>Newmaster</givenName>      <surName>Steven</surName>
+    </individualName>
+<organizationName>OAC-BIO Herbarium, University of Guelph</organizationName><positionName>Director</positionName>    <address>
+<deliveryPoint>50 Stone Rd, University of Guelph</deliveryPoint><city>Guelph</city><administrativeArea>ON</administrativeArea><postalCode>N1G2W1</postalCode><country>CANADA</country>    </address>
+<phone>(519) 824-4120 x56002</phone><electronicMailAddress>snewmast@uoguelph.ca</electronicMailAddress><onlineUrl>http://www.uoguelph.ca/ib/people/faculty/newmast.shtml</onlineUrl>  </contact>
+  <methods>
+      <methodStep>
+        <description>
+          <para>Data are entered into the Herbarium Information System (HIMS) and some records determined by taxonomic experts.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The Herbarium collection has increased from 85000-128000 specimens in the last three years. Most of these collections are vouchers from current research projects including the Flora Ontario project. Dr Newmaster arranged for the donation of several specialized collections from the Canadian National Museum, Royal Ontario Museum, Royal Botanical Gardens, University of Alberta, University of British Columbia, Canadian Forest Service, Botanical Research Institute of Texas and the Missouri Botanical Gardens. Starting in 2006, the OAC Herbarium will become the repository of all plant vouchers for the Canadian Barcode of Life Consortium, which just received funding from Genome Canada ($630,798 for plants) to barcode plants in Canada. This will include the archival of herbarium vouchers, preserved leaves in silica gel and the extraction of each specimens DNA for cryopreservation.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Floristic diversity; Weeds of Ontario collection; DNA barcoding collections- collection, identification, preparation of typical herbarium vouchers, accessing in to OAC-BIO herbarium by the respective project investigator.</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Records are edited on an ad hoc basis.</para>
+        </description>
+      </qualityControl>
+  </methods>
+
+    <project>
+      <title>OAC-BIO Herbarium Information Management System (HIMS)</title>
+      <personnel>
+    <individualName>
+<givenName>Subramanyam</givenName>      <surName>Ragupathy</surName>
+    </individualName>
+    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+      </personnel>
+      <funding>
+        <para>Canada Foundation for Innovation</para>
+      </funding>
+    </project>
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2016-02-15T05:51:32.720+01:00</dateStamp>
+        <citation identifier="doi:10.5886/66f3rsta">OAC-Herbarium, Biodiversity Institute of Ontario from University of Guelph. http://dx.doi.org/10.5886/66f3rsta (accessed on [date])</citation>
+        <physical>
+          <objectName>Canadensys explorer</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://data.canadensys.net/explorer/en/resources/oac-specimens</url>
+            </online>
+          </distribution>
+        </physical>
+        <physical>
+          <objectName>GBIF data portal</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.gbif.org/dataset/68829f71-56b1-4015-a363-ef8f0e1d6e4f</url>
+            </online>
+          </distribution>
+        </physical>
+        <collection>
+          <parentCollectionIdentifier>Respective donor or project investigator</parentCollectionIdentifier>
+          <collectionIdentifier>Respective donor or project investigator</collectionIdentifier>
+          <collectionName>OAC-BIO Herbarium</collectionName>
+        </collection>
+        <specimenPreservationMethod>MOUNTED</specimenPreservationMethod>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

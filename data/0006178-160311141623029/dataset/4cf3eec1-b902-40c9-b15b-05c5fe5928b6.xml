@@ -1,0 +1,183 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId="4cf3eec1-b902-40c9-b15b-05c5fe5928b6"  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+      <alternateIdentifier system="doi.org">doi:10.15468/4wnutv</alternateIdentifier>
+    <alternateIdentifier>http://www.gbif.es/ipt/resource?r=anthos</alternateIdentifier>
+    <alternateIdentifier>http://www.gbif.es/ipt/resource.do?r=anthos</alternateIdentifier>
+    <alternateIdentifier>4cf3eec1-b902-40c9-b15b-05c5fe5928b6</alternateIdentifier>
+    <alternateIdentifier>9090</alternateIdentifier>
+  <title>Fundación Biodiversidad, Real Jardín Botánico (CSIC): Anthos. Sistema de Información de las plantas de España</title>
+<creator>
+    <individualName>
+<givenName>Leopoldo</givenName>      <surName>Medina Domingo</surName>
+    </individualName>
+<organizationName>Real Jardín Botánico (CSIC)</organizationName><positionName>Titulado Superior</positionName>    <address>
+<deliveryPoint>Plaza Murillo 2</deliveryPoint><city>Madrid</city><administrativeArea>Madrid</administrativeArea><postalCode>28014</postalCode><country>SPAIN</country>    </address>
+<phone>+34914203585</phone><electronicMailAddress>anthos@rjb.csic.es</electronicMailAddress><onlineUrl>http://www.anthos.es/</onlineUrl></creator>
+<metadataProvider>
+    <individualName>
+<givenName>Leopoldo</givenName>      <surName>Medina Domingo</surName>
+    </individualName>
+<organizationName>Real Jardín Botánico (CSIC)</organizationName><positionName>Titulado Superior</positionName>    <address>
+<deliveryPoint>Plaza Murillo 2</deliveryPoint><city>Madrid</city><administrativeArea>Madrid</administrativeArea><postalCode>28014</postalCode><country>SPAIN</country>    </address>
+<phone>+34914203585</phone><electronicMailAddress>anthos@rjb.csic.es</electronicMailAddress><onlineUrl>http://www.anthos.es/</onlineUrl></metadataProvider>
+<pubDate>
+        2015-11-25
+</pubDate>
+<language>ENGLISH</language>
+<abstract>
+  <para>ANTHOS es un programa desarrollado al amparo de un convenio específico y diversas ayudas entre la Fundación Biodiversidad (Ministerio de Agricultura, Alimentación y Medio Ambiente) y el Consejo Superior de Investigaciones Científicas - Real Jardín Botánico (Ministerio de Economía y Competitividad) para mostrar en Internet información sobre biodiversidad de las plantas de España. El programa se inició en el año 1999 con una aplicación informática que se ha mantenido actualizada hasta primeros del año 2006 y en la que se llegaron a incluir hasta 700.000 datos de plantas, procedentes principalmente de la bibliografía botánica española. En el año 2005, de acuerdo con lo estipulado en el segundo convenio para el desarrollo del proyecto, se encargó una nueva aplicación informática desarrollada en un sistema de información geográfica (SIG), y que se hizo accesible al público en fase de pruebas en abril de 2006. Esta nueva aplicación integra y mejora los procedimientos y consultas de la anterior, incrementa notablemente el conjunto de los datos disponibles, -en la actualidad tenemos c. 1,6 millones-, hasta un horizonte de c. 3,5 millones de registros que estimamos para la bibliografía botánica de España. Además, la nueva aplicación combina la información corológica con otra de tipo cartográfico sobre variables ambientales y mapas de referencia, lo que permite localizar con mayor exactitud las citas de plantas, así como explicar de forma visual los patrones de distribución de las distintas especies. Se ha elegido como ámbito geográfico general del proyecto la vista de la Península Ibérica e islas de la Macaronesia (Canarias, Madeira y Azores) como representación de las unidades biogeográficas presentes en España, de manera que se pueda estudiar la distribución de un taxon en todo el territorio nacional y zonas aledañas, e integrado en su componente geográfica.</para>
+</abstract>
+  <keywordSet>
+      <keyword>Other</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <para>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://www.anthos.es/</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Spain (mainland Spain, Baleric Islands and Canary Islands), with data of Portugal (mainland Portugal, Madeira Islands and Azores Islands), other European Mediterranean countries and North Africa territories</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-31.16</westBoundingCoordinate>
+          <eastBoundingCoordinate>6.68</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.64</northBoundingCoordinate>
+          <southBoundingCoordinate>25.89</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+      </temporalCoverage>
+        <taxonomicCoverage>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chlorophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Equisetophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Gnetophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Lycopodiophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Magnoliophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Magnoliophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Pinophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Psilophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Pteridophyta</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Charophyceae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Equisetopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Gnetopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Lycopodiopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Liliopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Magnoliopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Pinopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Psilopsida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Filicopsida</taxonRankValue>
+            </taxonomicClassification>
+        </taxonomicCoverage>
+  </coverage>
+  <purpose>
+    <para>Mostrar en internet, de forma libre y gratuita, información de calidad sobre la diversidad de las plantas de España</para>
+  </purpose>
+  <contact>
+    <individualName>
+<givenName>Carlos</givenName>      <surName>Aedo Pérez</surName>
+    </individualName>
+<organizationName>Real Jardín Botánico (CSIC)</organizationName><positionName>Investigador</positionName>    <address>
+<deliveryPoint>Plaza Murillo 2</deliveryPoint><city>Madrid</city><administrativeArea>Madrid</administrativeArea><postalCode>28014</postalCode><country>SPAIN</country>    </address>
+<phone>+34914203585</phone><electronicMailAddress>anthos@rjb.csic.es</electronicMailAddress><onlineUrl>http://www.anthos.es/</onlineUrl>  </contact>
+  <methods>
+      <methodStep>
+        <description>
+          <para></para>
+        </description>
+      </methodStep>
+  </methods>
+
+    <project>
+      <title>Proyecto Anthos: Sistema de Información de las Plantas de España. Fundación Biodiversidad-Real Jardín Botánico (CSIC)</title>
+      <personnel>
+    <individualName>
+<givenName>Leopoldo</givenName>      <surName>Medina Domingo</surName>
+    </individualName>
+    <role>POINT_OF_CONTACT</role>
+      </personnel>
+      <funding>
+        <para>Fundación Biodiversidad (http://www.fundacion-biodiversidad.es/) and Consejo Superior de Investigaciones Científicas (www.csic.es)</para>
+      </funding>
+    </project>
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>
+        <dateStamp>2015-11-25T10:10:04.671+01:00</dateStamp>
+        <citation>Anthos. 2011[year of consultation]. Information System of the plants of Spain. Real Jardín Botánico, CSIC - Fundación Biodiversidad. Electronic resource at www.anthos.es. Consultation carried out in March 2011[date of consultation].</citation>
+        <resourceLogoUrl>http://www.gbif.es/ipt/logo.do?r=anthos</resourceLogoUrl>
+        <collection>
+          <parentCollectionIdentifier>Not applicable</parentCollectionIdentifier>
+          <collectionIdentifier>4cf3eec1-b902-40c9-b15b-05c5fe5928b6</collectionIdentifier>
+          <collectionName>Anthos</collectionName>
+        </collection>
+        <specimenPreservationMethod>NO_TREATMENT</specimenPreservationMethod>
+        <livingTimePeriod>1999-2014</livingTimePeriod>
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>

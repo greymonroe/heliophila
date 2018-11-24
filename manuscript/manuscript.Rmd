@@ -1,0 +1,114 @@
+---
+title             : "Plant life history strategies predicted by satellite-detected drought"
+shorttitle        : ""
+
+author: 
+  - name          : "J Grey Author"
+    affiliation   : "1,2"
+    corresponding : yes    # Define only one corresponding author
+    address       : "307 University Ave, Fort Collins, CO 80523"
+    email         : "monroejg@colostate.edu"
+  - name          : "Brian Gill"
+    affiliation   : "3"
+  - name          : "Brian Gill"
+    affiliation   : "4"
+    
+affiliation:
+  - id            : "1"
+    institution   : "Graduate Degree Program in Ecology, Colorado State University"
+  - id            : "2"
+    institution   : "College of Agriculture, Colorado State University"
+  - id            : "3"
+    institution   : "Department of Ecology and Evolutionary Biology"
+  - id            : "4"
+    institution   : "Biology Department, Penn State University"    
+    
+
+authornote: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+abstract: |
+
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "drought, life history, remote sensing, phylogeography"
+wordcount         : ""
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+figsintext        : yes
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+library(raster)
+library(tidyverse)
+library(ggplot2)
+```
+
+#Introduction
+
+Life history 
+Annual vs perennial
+Hypotheses
+Summary
+
+
+# Methods
+## Data
+### Life history
+### Phyologeny
+### Herbarium Specimens
+```{r raw_GBIF}
+GBIF<-read.csv("../data/0006178-160311141623029/occurrence.csv")
+```
+We downloaded `r nrow(GBIF)` records from GBIF. 
+
+### Drought
+
+## Analyses
+### Phylogeny
+### Drought frequency
+### Contrast
+We used `r cite_r("r-references.bib")` for all our analyses.
+
+# Results
+
+(ref:foo) A scatterplot of the data `cars` using **base** R graphics. 
+
+```{r foo, fig.cap='(ref:foo)',out.width = "\\textwidth", fig.pos = "!h"}
+plot(cars)  # a scatterplot
+```
+
+First we did this (Fig. \@ref(fig:foo).)
+
+# Discussion
+The best paper ever [@monroe2016adaptation]
+
+There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.There is a package installer at pandoc’s download page. If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.
+
+
+\newpage
+
+# References
+```{r create_r-references}
+r_refs(file = "r-references.bib")
+```
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup

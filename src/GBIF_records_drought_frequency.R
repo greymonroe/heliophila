@@ -382,7 +382,6 @@ p<-ggplot(GBIF_cleaned, aes(x=days_adjusted, fill=life_history)) +
 p
 dev.off()
 
-
 # TEST ANNUAL AND PERENNIAL DATES -----------------------------------------
 annuals<-subset(GBIF_cleaned, life_history=="a")
 perennials<-subset(GBIF_cleaned, life_history=="p")

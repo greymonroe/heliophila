@@ -23,7 +23,7 @@
 }{}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={Satellite-detected drought frequencies predict plant life history strategies},
+            pdftitle={Satellite-detected droughts predict plant life history},
             pdfauthor={J. Grey Monroe, Brian Gill, Kathryn Turner, \& John K. McKay},
             pdfkeywords={drought adaptation, life history evolution, remote sensing,
 phylogeography, herbaria records},
@@ -64,8 +64,7 @@ phylogeography, herbaria records},
 \def\footnote{\protect\rmarkdownfootnote}
 
 
-  \title{Satellite-detected drought frequencies predict plant life history
-strategies}
+  \title{Satellite-detected droughts predict plant life history}
     \author{J. Grey Monroe\textsuperscript{1,2}, Brian Gill\textsuperscript{3},
 Kathryn Turner\textsuperscript{4}, \& John K. McKay\textsuperscript{2}}
     \date{}
@@ -112,21 +111,23 @@ of evolutionary biology. For plants, annual and perennial life histories
 are thought to reflect adaptation to environments that differ in the
 frequency of environmental stress such as drought. Here we test this
 hypothesis in \textit{Heliophila} (Brassicaceae), a diverse genus of
-flowering plants native to Southern Africa using herbarium occurrence
-records and satellite-detected drought histories. We find that perennial
-\textit{Heliophila} species are found in environments where droughts are
-significantly less frequent compared to annuals. These associations are
-predictive while controlling for phylogeny, lending support to the
-hypothesis that drought related natural selection has influenced the
-distributions of these strategies. Additionally, the difference in
-drought frequency between annual and perennial species distributions is
-greatest during the summer and fall, which also appears to be when
-annuals are in the seed phase of their life cycle based on collection
-dates of annual species. Together, these findings support traditional
-hypotheses about the drivers of life history strategy in plants - that
-perenniality is favored in environments with less frequent drought and
-annuality in enviroments with more frequent drought by allowing them to
-escape drought prone seasons as seeds. 
+flowering plants native to Africa by integrating 2192 herbaria
+occurrence records with 34 years of satellite-based drought detection.
+Consistent with predictions from classic life history theory, we find
+that perennial \textit{Heliophila} species occur in environments where
+droughts are significantly less frequent compared to annuals. These
+associations are predictive while controlling for phylogeny, lending
+support to the hypothesis that drought related natural selection has
+influenced the distributions of these strategies. Additionally, the
+difference in drought frequency between annual and perennial species
+distributions is greatest during the summer and fall, which also appears
+to be when annuals are in the seed phase of their life cycle based on
+collection dates of annual species. Together, these finding provide
+empirical support for classic hypotheses about the drivers of life
+history strategy in plants - that perennials out compete annuals in
+environments with less frequent drought and that annuals are adpated to
+enviroments with more frequent drought by escaping drought prone seasons
+as seeds. 
 }
 
 \usepackage{amsthm}
@@ -149,10 +150,6 @@ escape drought prone seasons as seeds.
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-\hypertarget{life-history-variation-in-plants}{%
-\subsection{Life history variation in
-plants}\label{life-history-variation-in-plants}}
-
 Understanding the causes and consequences of life history variation is a
 longstanding goal of ecology and evolutionary biology (Cole, 1954). In
 plants, life histories are especially diverse, with herbaceous species
@@ -160,49 +157,40 @@ that complete their life cycle in a number of weeks to trees that live
 for thousands of years (Brown, 1996). Along this continuum an important
 division exists, distinguishing annuals (i.e.~monocarpic or semelparous)
 which complete their seed to seed life cycle within a single calendar
-year from perennials (i.e.~polycarpic or iteroparous{]} which can
-persist over multiple years. Annual plants flower once, set seed,
-senesce, and then die, spending at least some portion of the year as a
-seed. In contrast, perennial plants can continue vegetative growth after
-reproduction and experience all seasons. These represent fundamentally
-different life history strategies, but the ecological factors that
-explain their evolution remain uresolved (Friedman \& Rubin, 2015).
-
-Identifying the drivers of selection for these alternative strategies is
-important because annuals and perennials have differing impacts on
-ecosystem functioning. For example, perennials have higher nitrogen
-concentration and larger specific root length in annuals, which both
-affect nutrient cycling (Garnier, Cordonnier, Guillerm, \& Sonié, 1997;
-Roumet, Urcelay, \& Dı'az, 2006). Furthermore, predicting the conditions
-that favor these strategies in nature is useful for developing more
-sustainable perennial cropping systems (Lelièvre \& Volaire, 2009).
-
-Classical theory predict shorter life spans and annuality in
-environments where adult mortality is high (Charnov \& Schaffer, 1973;
-Franco \& Silvertown, 1996; Stearns, 1992). In plants, this has been
-extended to the hypothessis that annuality is adaptive when it allows
-plants to escape drought (Schaffer \& M, 1975). Lack of water is perhaps
-the greatest threat to survival during vegetatitive or reproductive
-growth and annuals can remain dormant (and protected as a seed) during
-drought. Thus, environments with greater seasonal drought frequency may
-select for annual life histories that complete reproduction prior to
-drought prone seasons. Conversely, environments with less frequent
-drought may select for perennial species, which may benefit from
-multiple bouts of reproduction and competitive advantage (Corbin \&
-D'Antonio, 2004). These prediction has been supported by the association
-of annualilty with arid environments in wild rice (Morishima, Sano, \&
-Oka, 1984) and \emph{Oenothera} (Evans, Hearn, Hahn, Spangle, \&
-Venable, 2005). Additionally, annual and perennial species of Nemesia
-were qualitatively associated with winter rather and summer rainfall
-environments respectively (Datson, Murray, \& Steiner, 2008) and annual
-species of Scorzoneroides were associated with environments classified
-as unpredictable (Cruz-Mazo, Buide, Samuel, \& Narbona, 2009). These
-findings provide qualitative evidence supporting the prediction that
-annual species are found in environments that experience more frequent
-drought, and vice versa, but whether the history frequency of drought
-events indeed predicts the distributions annual or perennial life
-history strategies has yet to be tested.
-
+year from perennials (i.e.~polycarpic or iteroparous) which can persist
+over multiple years. Annual plants flower once, set seed, senesce, and
+then die, spending at least some portion of the year as a seed, where
+they are relatively protected from environmental stress. In contrast,
+perennial plants can continue vegetative growth after reproduction and
+must survive conditions experienced during all seasons. These represent
+fundamentally different life history strategies, but the ecological
+factors that explain their evolution and distributions remain
+empirically uresolved (Friedman \& Rubin, 2015).\\
+Classical theory predict shorter life spans in environments where adult
+mortality is high (Charnov \& Schaffer, 1973; Franco \& Silvertown,
+1996; Stearns, 1992). In plants, this has been extended to the
+hypothessis that annuality is adaptive when it allows plants to escape
+drought (Schaffer \& M, 1975). Lack of water is perhaps the greatest
+threat to survival during vegetatitive or reproductive growth and
+annuals can remain dormant (and protected as a seed) during drought.
+Thus, environments with greater seasonal drought frequency may select
+for annual life histories that complete reproduction prior to drought
+prone seasons. Conversely, environments with less frequent drought may
+select for perennial species, which may benefit from multiple bouts of
+reproduction and competitive advantage by preventing recruitment of
+annual species (Corbin \& D'Antonio, 2004). These predictions have been
+supported by the association of annualilty with arid environments in
+wild rice (Morishima, Sano, \& Oka, 1984) and \emph{Oenothera} (Evans,
+Hearn, Hahn, Spangle, \& Venable, 2005). Additionally, annual and
+perennial species of \emph{Nemesia} were qualitatively associated with
+winter rather and summer rainfall environments respectively (Datson,
+Murray, \& Steiner, 2008) and annual species of \emph{Scorzoneroides}
+were associated with environments classified as unpredictable
+(Cruz-Mazo, Buide, Samuel, \& Narbona, 2009). However, whether the
+history frequency of drought events indeed predicts the distributions
+annual or perennial life history strategies has yet to be tested in a
+phylogenetic context with suitable sample sizes of distrubution and
+climate data.\\
 Here we combine a long-term global dataset of satellite detected drought
 events with metadata from natural collections to test these classic
 hypotheses about the evolution of life history strategies within the
@@ -215,21 +203,22 @@ species. Furthermore, if annual species have adapted to escape drought
 prone seasons as seeds, observations of annual species should be rare
 during drought prone seasons. Phylogenetic relatedness can have
 significant non-random effects on species distributions and life history
-traits {[}{]}, and therefore we assessed the relationship between life
-history distribution and drought frequency in a phylogenetically
-controlled background.
+traits (Barrett, Harder, \& Worley, 1996), and therefore we assessed the
+relationship between life history distribution and drought frequency in
+a phylogenetically controlled background.
 
 \hypertarget{materials-and-methods}{%
 \section{Materials and Methods}\label{materials-and-methods}}
 
-\hypertarget{availability}{%
-\subsection{Availability}\label{availability}}
-
-All data and the source code to produce this manuscript are available at
-\url{https://github.com/greymonroe/heliophila}.
-
 \hypertarget{data}{%
 \subsection{Data}\label{data}}
+
+\hypertarget{availability}{%
+\subsubsection{Availability}\label{availability}}
+
+All analyses were peformed using R. All data and the source code to
+produce this manuscript are available at
+\url{https://github.com/greymonroe/heliophila}.
 
 \hypertarget{satellite-detected-drought-data}{%
 \subsubsection{Satellite-detected drought
@@ -246,11 +235,9 @@ in plant cover and temperature conditions characteristic of drought
 since 1981, the VHI combines normalized difference vegetation index
 (NDVI) derived measures of vegetative stress (Vegetative Condition Index
 - VCI) with temperature stress indicated by anomalies in thermal spectra
-(Temperature Condition Index - TCI).
-
-The VHI of year \(y\) during week \(w\) of \([1,52]\) at pixel \(i\) is
-derived from the following equations, where \(n\) is the number of years
-observed.
+(Temperature Condition Index - TCI). The VHI of year \(y\) during week
+\(w\) of \([1,52]\) at pixel \(i\) is derived from the following
+equations, where \(n\) is the number of years observed.
 
 \[VCI_{y,w,i} = 100\frac{NDVI_{y,w,i} - NDVI_{min}}{NDVI_{max} - NDVI_{min}}\]
 
@@ -262,23 +249,22 @@ where \(NDVI_{min} = min(NDVI_{1981,w,i}...NDVI_{1981+n,w,i})\) and
 where \(T_{min} = min(T_{1981,w,i}...T_{1981+n,w,i})\) and
 \(T_{max} = max(T_{1981,w,i}...T_{1981+n,w,i})\)
 
-\[VHI_{y,w,i} = 0.5(VCI_{y,w,i}) + 0.5(TCI_{y,w,i})\]
-
-Thus, VHI measurements are standardized according to conditions
-historically observed at each locations. These measurements have been
-validated and generally used for evaluating drought risk and predicting
-crop yields in agriculture (e.g., Rojas, Vrieling, \& Rembold, 2011;
-Kogan et al., 2016). But they also present a tool to study seasonal
-patterns in the frequency of drought across environments and to test
-hypotheses about the effect of drought on ecological and evolutionary
-processes. Indeed, the VHI has been applied recently to study drought
-related ecology of natural species and proven useful for predicting
-infraspecific variation in drought tolerance traits and genes
+\[VHI_{y,w,i} = 0.5(VCI_{y,w,i}) + 0.5(TCI_{y,w,i})\] Thus, VHI
+measurements are standardized according to conditions historically
+observed at each locations. These measurements have been validated and
+generally used for evaluating drought risk and predicting crop yields in
+agriculture (e.g., Rojas, Vrieling, \& Rembold, 2011; Kogan et al.,
+2016). But they also present a new tool to study seasonal patterns in
+the frequency of drought across environments and to test hypotheses
+about the effect of drought on ecological and evolutionary processes
+(Kerr \& Ostrovsky, 2003). As such, the VHI has been applied recently to
+study drought related ecology of natural species and proven useful for
+predicting infraspecific variation in drought tolerance traits and genes
 (Dittberner et al., 2018; Mojica et al., 2016; Monroe et al., 2018).
 Here, we accessed VHI data at \(16km^2\) resolution from 1981 to 2015
 (\url{https://www.star.nesdis.noaa.gov/smcd/emb/vci/VH/vh_ftp.php}) to
 characterize the seasonal drought frequencies experienced by annual and
-perennial \emph{Heliophila} sepecies.
+perennial \emph{Heliophila} species.
 
 \hypertarget{life-history-data-for-heliophila}{%
 \subsubsection{Life history data for
@@ -292,15 +278,23 @@ are considered to be the most diverse genus of the family Brassicaceae
 (Mummenhoff, Al-Shehbaz, Bakker, Linder, \& Mühlhausen, 2005). This
 genus includes both perennial and annual species and this change in life
 history strategy has likely arisen multiple independent times (Appel \&
-Al-Shehbaz, 1997; Mummenhoff et al., 2005). We used life histories
-reported by Mummenhoff et al. (2005), grouping species with annual or
-perennial life histories. Perenniality was defined based on the
-traditional defition and included any form of perennial life history
-(e.g., herbs, shrubs, mixed, etc).
+Al-Shehbaz, 1997; Mummenhoff et al., 2005). Furthermore, the fine scale
+climatic heterogeneity of Southern Africa is ideal for studying the
+distribution of traits in relation to environmental parameters (Sayre et
+al., 2013). We used life histories reported by Mummenhoff et al. (2005),
+grouping species with annual or perennial life histories. Perenniality
+was defined based any form of perennial life history (e.g., herbs,
+shrubs, mixed, etc). We also repeated these analyses without \emph{H.
+subulata} and \emph{H. minima} which have mixed life histories and found
+similar results. Because the original authors didn't report the nature
+of the mixed trait (Mummenhoff et al., 2005), (ie. plasticity
+vs.~genetic variation), we classified these species here as perennial
+since they have the capacity to maintain vegetative growth after
+reproduction at least to some capacity.
 
-\hypertarget{heliophila-herbarium-specimens}{%
-\subsubsection{Heliophila herbarium
-specimens}\label{heliophila-herbarium-specimens}}
+\hypertarget{heliophila-occurance-records}{%
+\subsubsection{Heliophila occurance
+records}\label{heliophila-occurance-records}}
 
 Botanists have collected and maintained over 350 million botanical
 specimens worldwide over the past 300 years. Herbarium specimens and
@@ -314,7 +308,8 @@ Václavı'k, Beckmann, Cord, \& Bindewald, 2017; Wolf, Zimmerman,
 Anderegg, Busby, \& Christensen, 2016). To characterize the diributions
 of annual and perennial \emph{Heliophila} species, all records for the
 genus \emph{Heliophila} were downloaded from the Global Biodiversity
-Information Facility (gbif.org) on July 21, 2018.
+Information Facility (gbif.org) on July 21, 2018 (``GBIF occurrence
+download,'' 2018).
 
 \hypertarget{sequence-data-for-phylogeny}{%
 \subsubsection{Sequence data for
@@ -322,8 +317,7 @@ phylogeny}\label{sequence-data-for-phylogeny}}
 
 Aligned Heliophila ITS sequences were obtained from previous work by
 Mandáková et al. (2012). Aethionema, Alliaria, Cardamine, Chamira, and
-Rorippa ITS records from were downloaded from Genbank {[}{]} and aligned
-together with Heliophila ITS sequences using MAFFT as outgroups {[}{]}.
+Rorippa ITS records from were downloaded from Genbank.
 
 \hypertarget{analyses}{%
 \subsection{Analyses}\label{analyses}}
@@ -343,40 +337,62 @@ solstice) and fall (quarter surrounding fall equinox) from 1981 to 2015.
 From these maps, the drought frequency during the winter, spring,
 summer, and fall were extracted for the locations of all GBIF records.
 
-\hypertarget{herbarium-record-quality-control}{%
-\subsubsection{Herbarium record quality
-control}\label{herbarium-record-quality-control}}
+\hypertarget{filtering-of-occurance-records}{%
+\subsubsection{Filtering of occurance
+records}\label{filtering-of-occurance-records}}
 
-To remove instance with spurious location data, we filtered raw GBIF by
-restricting our analyses to include only:\\
-* Species with reported life history\\
-* Records with geospatial data\\
-* Records without known geospatial issues\\
-* Records from collection sites classified as land pixels\\
-* Records from Africa\\
-* Non-duplicate records (ie. identical species, location, collection
-date)
+To avoid instances with spurious location data, we filtered raw GBIF by
+restricting our analyses to include only:
+
+\begin{itemize}
+\tightlist
+\item
+  Records for species with reported life history\\
+\item
+  Records with geospatial data\\
+\item
+  Records without known geospatial issues (i.e., coordinates reported
+  are those of herbarium)\\
+\item
+  Records from collection sites classified as land pixels\\
+\item
+  Records from Africa\\
+\item
+  Records without duplicates (i.e., identical species, location,
+  collection date)
+\end{itemize}
 
 \hypertarget{phylogeny-construction}{%
 \subsubsection{Phylogeny construction}\label{phylogeny-construction}}
 
-Model selection for construction of phylogeny was performed in
-jModeltest2 with CIPRES (cite). Based on this analysis, \(GTR + L\) were
-selected. Ultrametric phylogeny was estimated with branch lengths as
-relative time (details).
+Out group species were aligned together with \emph{Heliophila} ITS
+sequences using MAFFT. Model selection for construction of phylogeny was
+performed in jModeltest2 with CIPRES. Based on this analysis,
+\(GTR + L\) were selected. Ultrametric phylogeny was estimated with
+branch lengths as relative time.
 
-\hypertarget{comparison-of-drought-frequency-between-annual-and-perennial}{%
+\hypertarget{comparison-of-drought-frequency-between-annual-and-perennial-species}{%
 \subsubsection{Comparison of drought frequency between annual and
-perennial}\label{comparison-of-drought-frequency-between-annual-and-perennial}}
+perennial
+species}\label{comparison-of-drought-frequency-between-annual-and-perennial-species}}
 
 To evaluate the hypothesis that annual and perennial life history
 strategies reflect adaptations to alternative drought regimes, we tested
 the corresponding prediction that the observed distributions of annual
 and perennial \emph{Heliophila} species would be significantly
-associated with historic drought frequency. The relationship between
-drought frequencies across each taxon's range and life habitat (annual
-or perennial) was evaluated using Firth's penalized-likelihood logistic
-regression and phylogenetic logistic regression.
+associated with historic drought frequency. First, we compared the
+frequency of drought during the winter, spring, summer, and fall between
+raw occurance records of annual and perennial species by t-tests. To
+account for variation in the number of occurance records per species, we
+next calculated the mean drought frequency during the winter, spring,
+summer and fall for each species. The relationships between species mean
+values of drought frequency during each season and life habitat (annual
+or perennial) were tested using Firth's penalized-likelihood logistic
+regressions. Because demographic histories caused by ancestry can
+confound trait - environment associations, we then tested for the
+relationships between drought frequeny and life history while
+controlling for relationships between species using phylogenetic
+logistic regressions.
 
 \hypertarget{collection-dates}{%
 \subsubsection{Collection dates}\label{collection-dates}}
@@ -390,57 +406,99 @@ and Barlett variance test.
 \hypertarget{results}{%
 \section{Results}\label{results}}
 
-To test the hypothesis that annual and perennial plants reflect
-adaptation to alternative drought environments we examined the landscape
-distribution of life history strategies in the large and diverse mustard
-genus, \emph{Heliophila} Figure \ref{fig:phylogeny}. Using both
-herbarium specimen metadata and a 30 year dataset of satellite generated
-climate information, we tested the prediction that annual species are
-more often observed in drought-prone locations than perennial species,
-when controlling for phylogenetic relatedness. We found that drought
-frequency is significantly different between the distributions of annual
-and perennial species, with annuals being found in environments with
-significantly more frequent drought, and that this signal is strongest
-during the summer. These results remain significant while controlling
-for the phylogenetic relationships of Heliophila species, yielding
-support for the role that natural selection has played in driving
-contemporary distributions of these alternatives strategies in relation
-to drought regimes.
+
+
+
+
+
+
+
 
 
 
 \begin{figure}[!h]
-\includegraphics[width=\textwidth]{../figures/phylogeny} \caption{Phylogeny of Heliophila.}\label{fig:phylogeny}
+\includegraphics[width=\textwidth]{../figures/phylogeny} \caption{Species and examples of herbaria specimens of
+\emph{Heliophila} (a) Phylogeny and life history strategies of species
+studied. Orange circles at branch tips mark annual species and blue
+circles mark perennial species. Example herbaria specimens accessed via
+GBIF of (a) \emph{H. minima}, (b) \emph{H. deserticola}, (c) \emph{H.
+coronopifolia} and (d) \emph{H. ephemera}. Images (a,c,d) courtesy of
+The Bavarian Natural History Collections (CC BY-SA 4.0) and (b) The
+London Natural History Museum (CC BY 4.0). Links to images are found in
+the supplement.}\label{fig:phylogeny}
 \end{figure}
 
-\hypertarget{gbif-records}{%
-\subsubsection{GBIF records}\label{gbif-records}}
+
+
+
+
+
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{../figures/maps_boxplots} \caption{Locations of (a) annual and (b) perennial Heliophila.
+Drought frequency during the (c) winter, (d) spring, (e) summer and (f)
+fall. (g) Drought frequencies during each season observed at the
+collection sites of \emph{Heliophila} records.}\label{fig:mapsboxplots}
+\end{figure}
 
 Out of 8670 \emph{Heliophila} GBIF recrods, 6634 were for species with
 reported life history (Mummenhoff et al., 2005), 3653 had geospatial
 data, 3627 did not have geospatial issues, 3460 were located on pixels
 classified as land having drought measurements, 3457 were located in
 Africa, 3162 were not duplicated. After all filtering steps, 2192
-records for 42 species (Figure \ref{fig:mapsboxplots}, Table
-\ref{tab:speciesmeanstable}) passed.
+records for 42 species (Figure \ref{fig:phylogeny}, Table
+\ref{tab:speciesmeanstable}) passed for further analyses. The number of
+samples varied between species, with a mean of 52.19 samples per
+species. Heliophila rigidiuscula had the most records, 201, and
+Heliophila cornellsbergia the fewest, 2 (Table
+\ref{tab:speciesmeanstable}).
 
-\hypertarget{drought-frequency}{%
-\subsubsection{Drought frequency}\label{drought-frequency}}
+There were clear visual differences between the distributions of the 960
+annual and the 1232 perennial \emph{Heliophila} observation records (see
+Figure \ref{fig:speciesmaps} for maps of individual species). While
+annual species were generally found in the western regions of South
+Africa and the Namibia, primarily in the Cape Floristic Region and
+Succulent Karoo (Figure \ref{fig:mapsboxplots}a), the occurances of
+perennials extended to the east coast of South Africa (Figure
+\ref{fig:mapsboxplots}b).
 
-Drought frequency was signicantly different between annual and perennial
-species.
+The frequency of drought varied considerably across the ranges of
+\emph{Heliophila} species (Figure \ref{fig:mapsboxplots}c-f). This
+heterogeneity is expected, given that this is one of the most
+climatically diverse regions of the Earth (Sayre et al., 2013). It is
+worth noting the east to west cline in drought frequency observed during
+the summer, which distinguishes the high drought frequency of the
+Kalahari Sands and Namid Destert phyotogeographic regions from the low
+drought frequency of the Drakensberg Mountains and Coastal Zambesian
+phytogeographic regions. In the Cape phytogeographic region there was
+finer scale heterogeneity in drought frequency during the summer.
 
-
-
-
-
-
-\begin{figure}[!h]
-\includegraphics[width=\textwidth]{../figures/maps_boxplots} \caption{Locations of annual and perennial Heliophila. Drought
-frequency during the winter, spring, summer and fall. Drought
-frequencies during each season observed at the collection sites of
-Heliophila records.}\label{fig:mapsboxplots}
-\end{figure}
+Theory has predicted that annuality should be adaptive in places where
+stresses such as drought are more common. Conversely, perenniality
+should be adaptive in places where such stresses are less frequent. We
+found that the frequency of drought was significantly higher at the
+locations of occurance records for annual species. In terms of raw
+observation records (Figure @\ref(fig:mapsboxplots)g), the frequency of
+drought was signficantly higher at the location of annuals during the
+winter (t = 10.65, p = 0.00), spring (t = 10.73, p = 0.00), summer (t =
+12.67, p = 0.00), and fall (t = 15.26, p = 0.00). Because raw occurance
+records do not account for variation in the number of records per
+species (Table \ref{tab:speciesmeanstable})), we also tested whether
+mean drought frequency values of each species were significantly
+different between annuals and perennials by a Firths-penalized logistic
+regression. We found that the mean drought frequencies were signficantly
+higher (\(\alpha = 0.05\)) in annual species during the spring, summer,
+and fall (Table \ref{tab:modelstable}, Figure \ref{fig:lineplots}a). We
+further tested whether annual species are found in places where droughts
+occur more frequently while controlling for the phylogentic relatedness
+of \emph{Heliophila} species. This is important, because environmental
+differences in species distributions can be confounded with demographic
+history caused by acestry. We found that while controlling for
+phylogeny, the mean drought frequencies were signficantly higher
+(\(\alpha = 0.05\)) in annual species during the spring, summer, and
+fall (Table \ref{tab:modelstable}, Figure \ref{fig:lineplots}a). These
+findings indicate that common acestry alone does not explain differences
+the drought frequencies experienced in the environemnts of annual and
+perennial \emph{Heliophila}.
 
 \begin{table}[tbp]
 \begin{center}
@@ -468,9 +526,6 @@ Fall drought freq. & -19.0512 & 0.0026 & -20.8174 & 0.0067\\ \midrule
 \end{center}
 \end{table}
 
-\hypertarget{collection-dates-1}{%
-\subsubsection{Collection dates}\label{collection-dates-1}}
-
 
 
 
@@ -485,106 +540,128 @@ Heliophila. (B) Collection dates of GBIF records of annual and perennial
 species of Heliophila.}
 \end{figure}
 
+The preceding results indicated that annual speices are found in
+environments where droughts are signifacantly more frequent, especially
+in the summer and fall. Classic life history theory hypothesizes that
+annuality reflects adaptation to such environments because it allows
+species to escape stressful conditions. If this is the case, we would
+expect that annuals spend the drought prone seasons of summer and fall
+as seeds. To test this hypothesis, we compared the dates of occurance
+records between annual and perennial \emph{Heliophila} species. The
+distributions reveal a considerable difference in the timing of
+observation of these two life histories. In comparison to perennials,
+which appear to be collected throughout the year, annuals are almost
+exclusively observed during the spring (Figure \ref{fig:lineplots}b).
+The differences between the distrubution of collection dates were
+signicant by all tests (ks.test D = 0.25, p = 0; bartlett.test K2 =
+503.18, p = 0.00) This is consistent with a model of life history in
+which annual species flower in the spring, set seed, senesce, and die
+before the summer. Thus, these annual species are likely to remain
+dormant during the summer and fall, when drought is the strongest
+predictor of the distrubutions of annual and perennial life histories
+(Figure \ref{fig:lineplots}a).
+
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 
-\hypertarget{summary}{%
-\subsection{Summary}\label{summary}}
+To test the hypothesis that annual and perennial plants reflect
+adaptation to alternative drought environments we examined the landscape
+distribution of life history strategies in the large and diverse mustard
+genus, \emph{Heliophila}. Using metadata of 2192 occurance records and a
+34 year dataset of satellite-detected droughts, we tested the prediction
+that annual species are more often observed in drought-prone locations
+than perennial species, when controlling for phylogenetic relatedness.
+We found that drought frequency is significantly different between the
+distributions of annual and perennial species, with annuals being found
+in environments with more frequent drought, and that this signal is
+strongest during the summer. These results remain significant while
+controlling for the phylogenetic relationships of \emph{Heliophila}
+species, yielding support for the role that natural selection has played
+in driving contemporary distributions of these alternatives strategies
+in relation to drought regimes.
 
-We found that the distribution of annual and perennial species of
-Heliophila is significantly predicted by satellite detected historic
-drought frequencies. Annual species are found in environments that
-experience more frequent drought during the summer and fall quarters
-compared to perennials. This relationship was consistent while
-controlling for phylogenetic relatedness among the taxa studied,
-indicating that these distributions cannot be explained entirely by
-common ancestry. These results support the hypothesis that natural
-selection has played a role in shaping the contemporary distributions of
-these alternative life-history strategies.
+We cannot elimiate the possibility that counfounding traits or
+environmental variables are the causative factors explaining variation
+in the distributions of annual and perennial species. Nevertheless,
+these results reveal quantitative support for the classic prediction
+that annual species are found in environemnts that experience more
+frequent drought than perennial species. These findings complement
+previous reports of qualitative associations between annaulity with
+enviroments characterized as having increased aridity (Evans et al.,
+2005), alternative precipitation defined habitats (Datson et al., 2008;
+Morishima et al., 1984), or greater unpredictability (Cruz-Mazo et al.,
+2009). However, to our knowledge this is the first study to demonstrate
+a signficant association between life history and drought in a
+phylogenetic context informed by large scale species distribution data
+and long term drought measures.
 
-\hypertarget{relationship-to-previous-hypotheseswork}{%
-\subsection{Relationship to previous
-hypotheses/work}\label{relationship-to-previous-hypotheseswork}}
-
-Herbaria records and satellite detected drought provide data with which
-the distributions of annual and perennial species can be compared with
-respect to historic drought frequency. However, it is necessary to
-control for the demographic history caused by common ancestry of species
-if evolutionary processes such as natural selection are to be invoked as
-explanations for any differences observed. If, for example, annual and
-perennial species show significantly different ranges with respect to
-historic drought this could be confounded by common ancestry if annuals
-originated from a common ancestor and vice versa. In this case, it would
-be challenging to distinguish between natural selection and demographic
-history. On the other hand, if annual and perennial life history
-strategies arose independently in multiple species, controlling for
-phylogenetic relationships allows us to better account for demography
-and make stronger assertions about the importance of processes such as
-natural selection to explain patterns.
-
-These findings support classical theoretical predictions about the
-adaptive value of annual and perennial life history strategies. Taken
-together, they suggest that in Heliophila, annual species are adapted to
-environments with increased summer droughts by avoiding these seasons in
-a dormant seed phase of their life cycle. Indeed, we found that very few
-annuals are collected during this season, supporting the prediction that
-they are not in a vegetative and/or reproductive phase at this time.
-Traditionally, the focus has been on the evolutionary origins of annual
-life histories \{citations\}. However, we also find evidence that the
-transition to perenniality could be explained by historical drought
-regimes. The phylogeny reveals several transitions from annual to
-perennial life history. Perennials may be able to out complete annual
-relatives in environments where the infrequency of drought favors
-strategies that allow plants to benefit from growth over many seasons.
-
-\hypertarget{caveats}{%
-\subsection{Caveats}\label{caveats}}
-
-Sampling bias (Daru et al., 2018). Correlation does not prove causation.
-But it does indicate predictive power and is consistent with adaptive
-hypotheses. Herbarium collections and their associated data do not
+Unfortunately, herbarium collections and their associated data do not
 represent systematic or random sampling of a species distribution.
 Significant biases in collecting exist, which we have not necessarily
 controlled for here, and may have some effect on our findings, such as a
 bias toward collecting near roads or near the locations of natural
-history collections (Daru et al.~2018, Heberling, in press). Despite
-these biases, the Cape Floristic region is a biodiversity hotspot and
-one of the most botanically well sampled regions on Earth (Daru et
-al.~2018, Heberling, in press?), suggesting that this may currently be
-the optimal region for our analyses of life history distribution. Future
-research will benefit from systematic sampling efforts to avoid these
-noted biases. The climate data used here are assessed only from
-198X-XXXX and do not reflect conditions at the estimated divergence
-dates of these species (XXX million of years ago). Rather, the results
-suggest that the current distributions of annual and perennial species
-reflect a history of environmental filtration and ongoing natural
-selection. That is, their distributions are non-random with respect to
-historic drought and this is not explained by phylogeny.
+history collections (Daru et al., 2018). Future research will benefit
+from systematic sampling efforts to avoid these noted biases. However,
+the ecosystems of southern Africa include several biodiversity hotspots
+and are among the most botanically well sampled regions on Earth (Daru
+et al., 2018), suggesting that this may currently be the optimal region
+for our analyses of life history distribution. Indeed, we were able to
+use 2192 occurance records to study 42 species, which represents a
+significant advance over relying on personal observations to
+characterize species distrubtuions.
 
-\hypertarget{broader-implications}{%
-\subsection{Broader implications}\label{broader-implications}}
+These findings support classical theoretical predictions about the
+adaptive value of annual and perennial life history strategies. Taken
+together, they suggest that in \emph{Heliophila}, annual species are
+adapted to environments with increased summer droughts by avoiding these
+seasons in a dormant seed phase of their life cycle. They also suggest
+that perenniality is adaptive in environemnts where droughts are less
+frequent. While most previous work has focused on describing the
+evolutionary origins of annuality (Andreasen \& Baldwin, 2001; Barrett
+et al., 1996; Conti, Soltis, Hardig, \& Schneider, 1999; Friedman \&
+Rubin, 2015; Verboom, Linder, \& Stock, 2004) there are at least a few
+other cases where perenniality appears to have arisen from an annual
+acestor (Bena, Lejeune, Prosperi, \& Olivieri, 1998; Tank \& Olmstead,
+2008). And while early theory predicted selection for annuality when
+adult morality is high (Stearns, 1992), we also find evidence that the
+transition to perenniality could be explained by historical drought
+regimes. The phylogeny reveals several transitions from annual to
+perennial life history (Figure \ref{fig:phylogeny}a) and that perennials
+distributions extend into regions where drought frequency is low (Figure
+\ref{fig:mapsboxplots}b,Figure \ref{fig:speciesmaps}). Perennials may be
+able to out complete annual relatives in environments where the
+infrequency of drought favors strategies that allow plants to benefit
+from growth over many seasons. It may also indicate that annuals rely on
+drought as a source of disturbance for seedling recruitment when
+competing with perennials (Corbin \& D'Antonio, 2004). Indeed, no annual
+species were observed in the low drought regions of east South Africa
+\ref{fig:mapsboxplots}a,Figure \ref{fig:speciesmaps}).
 
-These findings suggest that rapidly changing drought regimes threaten
-species adapted to current environments. Studies predict changing
-drought regimes. This could have impacts on ecosystem functioning. This
-should also be considered when thinking about using perennial crops.
-Studies predict changing drought regimes.
+These findings suggest that species with locally adapted life history
+strategies could be threatened by rapidly changing drought regimes (Dai,
+2011). This could have impacts on ecosystem functioning if the
+composition of annual and perennial species changes as a response
+(Garnier, Cordonnier, Guillerm, \& Sonié, 1997; Roumet, Urcelay, \&
+Dı'az, 2006). Furthermore, the frequency of drought may be an important
+factor when considering the use of perennial cropping sysyems (Lelièvre
+\& Volaire, 2009; Parry, Flexas, \& Medrano, 2005).
 
-Do annuals require drought? We found independent origins of perenniality
-in environments where droughts are infrequent. Annuals may not be able
-to compete with perennials in the absence of droughts.
-
-\hypertarget{conclusions}{%
-\subsection{Conclusions}\label{conclusions}}
-
-Perenniality appears to be adaptive in environments with less frequent
-drought. This work demonstrates the power of emerging data to address
+In conclusion, we find strong support for classic life history theory
+which predicts that annuality is adaptive environments where droughts
+occur more frequently. Additionally, we report evidence consistent with
+a life history model in annuals in which they escape drought prone
+seasons during the seed phase of their life cycle. Finally, we find
+evidence that the distributions of perennial lineages may indicate a
+competitive advantage in areas where droughts are infrequent. More
+broadly, this work demonstrates the power of emerging data to address
 outstanding classic hypotheses in ecology and evolution.
 
 \hypertarget{acknowledgments}{%
 \section{Acknowledgments}\label{acknowledgments}}
 
-This work was supported by NSF no. USDA grant no. XXX to J.G.M.
+We thank \_\_ for generous feedback that improved the quality of this
+work. This research was supported by NSF Award 1701918 and USDA-NIFA
+Award 2014-38420-21801 to JGM.
 
 \hypertarget{references}{%
 \section{References}\label{references}}
@@ -609,6 +686,13 @@ turnover explain species diversity in jawed vertebrates.
 \emph{Proceedings of the National Academy of Sciences of the United
 States of America}, \emph{106}, 13410--13414.
 
+\leavevmode\hypertarget{ref-andreasen2001unequal}{}%
+Andreasen, K., \& Baldwin, B. G. (2001). Unequal evolutionary rates
+between annual and perennial lineages of checker mallows (sidalcea,
+malvaceae): Evidence from 18S--26S rDNA internal and external
+transcribed spacers. \emph{Molecular Biology and Evolution},
+\emph{18}(6), 936--944.
+
 \leavevmode\hypertarget{ref-appel1997generic}{}%
 Appel, O., \& Al-Shehbaz, I. A. (1997). Generic limits and taxonomy of
 hornungia, pritzelago, and hymenolobus (brassicaceae). \emph{Novon},
@@ -618,10 +702,22 @@ hornungia, pritzelago, and hymenolobus (brassicaceae). \emph{Novon},
 Aust, F., \& Barth, M. (2018). \emph{papaja: Create APA manuscripts with
 R Markdown}. Retrieved from \url{https://github.com/crsh/papaja}
 
+\leavevmode\hypertarget{ref-barrett1996comparative}{}%
+Barrett, S. C. H., Harder, L. D., \& Worley, A. C. (1996). The
+comparative biology of pollination and mating in flowering plants.
+\emph{Phil. Trans. R. Soc. Lond. B}, \emph{351}(1345), 1271--1280.
+
 \leavevmode\hypertarget{ref-R-Matrix}{}%
 Bates, D., \& Maechler, M. (2018). \emph{Matrix: Sparse and dense matrix
 classes and methods}. Retrieved from
 \url{https://CRAN.R-project.org/package=Matrix}
+
+\leavevmode\hypertarget{ref-bena1998molecular}{}%
+Bena, G., Lejeune, B., Prosperi, J.-M., \& Olivieri, I. (1998).
+Molecular phylogenetic approach for studying life-history evolution: The
+ambiguous example of the genus medicago l. \emph{Proceedings of the
+Royal Society of London B: Biological Sciences}, \emph{265}(1401),
+1141--1151.
 
 \leavevmode\hypertarget{ref-brown1996oldlist}{}%
 Brown, P. M. (1996). OLDLIST: A database of maximum tree ages.
@@ -638,6 +734,13 @@ Cole, L. C. (1954). The population consequences of life history
 phenomena. \emph{The Quarterly Review of Biology}, \emph{29}(2),
 103--137.
 
+\leavevmode\hypertarget{ref-conti1999phylogenetic}{}%
+Conti, E., Soltis, D. E., Hardig, T. M., \& Schneider, J. (1999).
+Phylogenetic relationships of the silver saxifrages (saxifraga, sect.
+Ligulatae haworth): Implications for the evolution of substrate
+specificity, life histories, and biogeography. \emph{Molecular
+Phylogenetics and Evolution}, \emph{13}(3), 536--555.
+
 \leavevmode\hypertarget{ref-corbin2004competition}{}%
 Corbin, J. D., \& D'Antonio, C. M. (2004). Competition between native
 perennial and exotic annual grasses: Implications for an historical
@@ -648,6 +751,10 @@ Cruz-Mazo, G., Buide, M., Samuel, R., \& Narbona, E. (2009). Molecular
 phylogeny of scorzoneroides (asteraceae): Evolution of heterocarpy and
 annual habit in unpredictable environments. \emph{Molecular
 Phylogenetics and Evolution}, \emph{53}(3), 835--847.
+
+\leavevmode\hypertarget{ref-dai2011drought}{}%
+Dai, A. (2011). Drought under global warming: A review. \emph{Wiley
+Interdisciplinary Reviews: Climate Change}, \emph{2}(1), 45--65.
 
 \leavevmode\hypertarget{ref-daru2018widespread}{}%
 Daru, B. H., Park, D. S., Primack, R. B., Willis, C. G., Barrington, D.
@@ -700,6 +807,10 @@ Specific leaf area and leaf nitrogen concentration in annual and
 perennial grass species growing in mediterranean old-fields.
 \emph{Oecologia}, \emph{111}(4), 490--498.
 
+\leavevmode\hypertarget{ref-gbifdownload}{}%
+GBIF occurrence download. (2018, July). Retrieved from
+\url{https://doi.org/10.15468/dl.xmwqxm}
+
 \leavevmode\hypertarget{ref-R-mvtnorm}{}%
 Genz, A., \& Bretz, F. (2009). \emph{Computation of multivariate normal
 and t probabilities}. Heidelberg: Springer-Verlag.
@@ -733,6 +844,11 @@ modeling}. Retrieved from
 Ho, L. S. T., \& Ane, C. (2014). A linear-time algorithm for gaussian
 and non-gaussian trait evolution models. \emph{Systematic Biology},
 \emph{63}, 397--408.
+
+\leavevmode\hypertarget{ref-kerr2003space}{}%
+Kerr, J. T., \& Ostrovsky, M. (2003). From space to species: Ecological
+applications for remote sensing. \emph{Trends in Ecology \& Evolution},
+\emph{18}(6), 299--305.
 
 \leavevmode\hypertarget{ref-kogan2016modelling}{}%
 Kogan, F., Guo, W., Strashnaia, A., Kleshenko, A., Chub, O., \&
@@ -804,6 +920,11 @@ Paradis, E., \& Schliep, K. (2018). Ape 5.0: An environment for modern
 phylogenetics and evolutionary analyses in R. \emph{Bioinformatics},
 \emph{xx}, xxx--xxx.
 
+\leavevmode\hypertarget{ref-parry2005prospects}{}%
+Parry, M., Flexas, J., \& Medrano, H. (2005). Prospects for crop
+production under drought: Research priorities and future directions.
+\emph{Annals of Applied Biology}, \emph{147}(3), 211--226.
+
 \leavevmode\hypertarget{ref-R-sp}{}%
 Pebesma, E. J., \& Bivand, R. S. (2005). Classes and methods for spatial
 data in R. \emph{R News}, \emph{5}(2), 9--13. Retrieved from
@@ -848,6 +969,11 @@ Roumet, C., Urcelay, C., \& Dı'az, S. (2006). Suites of root traits
 differ between annual and perennial species growing in the field.
 \emph{New Phytologist}, \emph{170}(2), 357--368.
 
+\leavevmode\hypertarget{ref-sayre2013new}{}%
+Sayre, R. G., Comer, P., Hak, J., Josse, C., Bow, J., Warner, H.,
+\ldots{} others. (2013). A new map of standardized terrestrial
+ecosystems of africa. \emph{African Geographical Review}.
+
 \leavevmode\hypertarget{ref-schaffer1975selection}{}%
 Schaffer, W., \& M, G. (1975). Selection for optimal life histories in
 plants. \emph{Ecology and Evolution of Communities.}, 142--157.
@@ -881,6 +1007,11 @@ Temperley, W., \ldots{} Mayaux, P. (2016). Mapping ignorance: 300 years
 of collecting flowering plants in africa. \emph{Global Ecology and
 Biogeography}, \emph{25}(9), 1085--1096.
 
+\leavevmode\hypertarget{ref-tank2008annuals}{}%
+Tank, D. C., \& Olmstead, R. G. (2008). From annuals to perennials:
+Phylogeny of subtribe castillejinae (orobanchaceae). \emph{American
+Journal of Botany}, \emph{95}(5), 608--625.
+
 \leavevmode\hypertarget{ref-vaclavik2017effects}{}%
 Václavı'k, T., Beckmann, M., Cord, A. F., \& Bindewald, A. M. (2017).
 Effects of uv-b radiation on leaf hair traits of invasive
@@ -891,6 +1022,12 @@ sensing data. \emph{PloS One}, \emph{12}(4), e0175671.
 Venables, W. N., \& Ripley, B. D. (2002). \emph{Modern applied
 statistics with s} (Fourth.). New York: Springer. Retrieved from
 \url{http://www.stats.ox.ac.uk/pub/MASS4}
+
+\leavevmode\hypertarget{ref-verboom2004testing}{}%
+Verboom, G. A., Linder, H. P., \& Stock, W. D. (2004). Testing the
+adaptive nature of radiation: Growth form and life history divergence in
+the african grass genus ehrharta (poaceae: Ehrhartoideae).
+\emph{American Journal of Botany}, \emph{91}(9), 1364--1370.
 
 \leavevmode\hypertarget{ref-R-ggplot2}{}%
 Wickham, H. (2016). \emph{Ggplot2: Elegant graphics for data analysis}.
@@ -945,6 +1082,14 @@ flora of c alifornia in the context of 20th-century warming.
 
 \hypertarget{supplement}{%
 \section{Supplement}\label{supplement}}
+
+\hypertarget{images-used}{%
+\subsubsection{Images used}\label{images-used}}
+
+\url{https://www.gbif.org/occurrence/1099023487}
+\url{https://www.gbif.org/occurrence/1057389408}
+\url{https://www.gbif.org/occurrence/1099023562}
+\url{https://www.gbif.org/occurrence/1099023490}
 
 \hypertarget{software-used}{%
 \subsubsection{Software used}\label{software-used}}
@@ -1040,6 +1185,18 @@ Heliophila variabilis & a & 97 & 0.35 & 0.41 & 0.40 & 0.37\\
 }
 \end{ThreePartTable}
 \end{center}
+
+
+
+
+
+\begin{figure}
+\centering
+\includegraphics{../figures/speciesmaps.pdf}
+\caption{\label{fig:speciesmaps}Maps of occurance records for individual species.
+Orange points indicate annual species. Blue points indicate perennial
+species.}
+\end{figure}
 
 
 \end{document}

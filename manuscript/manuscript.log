@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 MAR 2019 03:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 MAR 2019 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,7 +882,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
 [9]
-<../figures/phylogeny.pdf, id=167, 325.215pt x 397.485pt>
+<../figures/phylogeny.pdf, id=169, 325.215pt x 397.485pt>
 File: ../figures/phylogeny.pdf Graphic file (type pdf)
 <use ../figures/phylogeny.pdf>
 Package pdftex.def Info: ../figures/phylogeny.pdf  used on input line 489.
@@ -890,7 +890,7 @@ Package pdftex.def Info: ../figures/phylogeny.pdf  used on input line 489.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/maps_boxplots.pdf, id=168, 325.215pt x 519.9425pt>
+<../figures/maps_boxplots.pdf, id=170, 325.215pt x 519.9425pt>
 File: ../figures/maps_boxplots.pdf Graphic file (type pdf)
 <use ../figures/maps_boxplots.pdf>
 Package pdftex.def Info: ../figures/maps_boxplots.pdf  used on input line 509.
@@ -913,7 +913,7 @@ LaTeX Warning: Text page 12 contains only floats.
 Overfull \vbox (3.50114pt too high) has occurred while \output is active []
 
 [12 <../figures/maps_boxplots.pdf>] [13]
-<../figures/line_and_dates.pdf, id=233, 361.35pt x 433.62pt>
+<../figures/line_and_dates.pdf, id=235, 361.35pt x 433.62pt>
 File: ../figures/line_and_dates.pdf Graphic file (type pdf)
 <use ../figures/line_and_dates.pdf>
 Package pdftex.def Info: ../figures/line_and_dates.pdf  used on input line 619.
@@ -943,13 +943,13 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 1249.
 [29]
-<../figures/maps_drought_examples.pdf, id=400, 216.81pt x 433.62pt>
+<../figures/maps_drought_examples.pdf, id=402, 216.81pt x 433.62pt>
 File: ../figures/maps_drought_examples.pdf Graphic file (type pdf)
 <use ../figures/maps_drought_examples.pdf>
 Package pdftex.def Info: ../figures/maps_drought_examples.pdf  used on input li
 ne 1268.
 (pdftex.def)             Requested size: 216.81938pt x 433.63878pt.
-<../figures/speciesmaps.pdf, id=401, 578.16pt x 578.16pt>
+<../figures/speciesmaps.pdf, id=403, 578.16pt x 578.16pt>
 File: ../figures/speciesmaps.pdf Graphic file (type pdf)
 <use ../figures/speciesmaps.pdf>
 Package pdftex.def Info: ../figures/speciesmaps.pdf  used on input line 1287.
@@ -986,10 +986,10 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss8.
 pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on manuscript.pdf (32 pages, 15690198 bytes).
+Output written on manuscript.pdf (32 pages, 15690218 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
+ 507 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
  152 named destinations out of 1000 (max. 500000)
  10458 words of extra memory for PDF output out of 12000 (max. 10000000)
 

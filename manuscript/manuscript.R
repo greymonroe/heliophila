@@ -14,6 +14,7 @@ library(ggtree)
 library(grid)
 library(png)
 library(ggimage)
+setwd("~/github/heliophila/manuscript/")
 
 ## ----raw_GBIF------------------------------------------------------------
 GBIF<-read.csv("../data/0006178-160311141623029/occurrence.csv")
@@ -249,10 +250,17 @@ tsum<-t.test(Summer~life_history, GBIF_cleaned)
 tfal<-t.test(Fall~life_history, GBIF_cleaned)
 
 melted<-GBIF_cleaned %>% select(life_history, Winter, Spring, Summer,Fall, species) %>% gather(Winter, Spring, Summer,Fall, key="season",value="droughtfreq")
-library(nlme)
-fit<-lme(droughtfreq~life_history*season, random=~1|species, melted)
-anovatable<-data.frame(predictor=c("intercept","life history","season","life history x season"), anova(fit))
-row.names(anovatable)<-NULL
+
+library(lmerTest)
+library(lme4)
+fit<-lmer(droughtfreq~life_history*season+(1|species), melted)
+anovatable<-data.frame(predictor=c("life history","season","life history x season"), anova(fit))
+
+library(emmeans)
+post_hoc<-emmeans(fit, list(pairwise ~ life_history*season), adjust = "tukey")
+post_hoc<-as.data.frame(post_hoc$`pairwise differences of life_history, season`)
+post_hoc[c(1,14,23,28), ]
+
 
 
 ## ----modelstable, results = 'asis', echo = F-----------------------------

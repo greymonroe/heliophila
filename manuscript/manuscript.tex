@@ -127,10 +127,10 @@ drought detection with 2,192 herbaria occurrence records.
 
 We find that the common ancestor of \textit{Heliophila} species was
 likely an annual, and that perenniality and annuality have repeatedly
-evolved, eight and five times, respectively. By comparing historical
-drought regimens, we show that annuals occur in environments where
-droughts are significantly more frequent than perennial species. We also
-provide evidence that annual plants adapt to predictable drought
+evolved, an estimated seven and five times, respectively. By comparing
+historical drought regimens, we show that annuals occur in environments
+where droughts are significantly more frequent than perennial species.
+We also provide evidence that annual plants adapt to predictable drought
 regimens by escaping drought prone seasons as seeds.
 
 \par
@@ -457,20 +457,17 @@ To evaluate the hypothesis that annual and perennial life history
 strategies reflect adaptations to alternative drought regimens, we
 tested the corresponding prediction that the observed distributions of
 annual and perennial \emph{Heliophila} species would be significantly
-associated with historic drought frequency. First, we compared the
-frequency of drought across all occurrence records of between annual and
-perennial species by t-tests. Independent tests were performed to
-compare drought frequency between annuals and perennials during each
-season. We also tested for a relationship between drought frequency and
-life history, season, and their interaction by analysis of variance
-while including species as a random effect. To account for variation in
-the number of occurrence records per species, we next calculated the
-mean drought frequency during the winter, spring, summer and fall for
-each species. Because shared evolutionary history of closely related
-species can lead to spurious associations between traits and
-environments (Felsenstein, 1985), we tested for a relationship between
-life history strategy and drought frequency while controlling for
-phylogeny using phylogenetic logistic regression (Ives \& Garland,
+associated with historic drought frequency. We tested for a relationship
+between drought frequency and life history, season, and their
+interaction by analysis of variance while including species as a random
+effect using the lme4 package in R ({\textbf{???}}) and compared annuals
+and perennials using by Tukey adjusted post-hoc contrasts. We next
+calculated the mean drought frequency during the winter, spring, summer
+and fall for each species. Because shared evolutionary history of
+closely related species can lead to spurious associations between traits
+and environments (Felsenstein, 1985), we tested for a relationship
+between life history strategy and drought frequency while controlling
+for phylogeny using phylogenetic logistic regression (Ives \& Garland,
 2010). This statistical approach is designed to control for the
 confounding effects of common ancestry's influence on demographic
 features such as geospatial relationships when addressing hypotheses
@@ -532,7 +529,7 @@ The topology of the estimated \emph{Heliophila} phylogeny was consistent
 with previous studies (Mummenhoff \emph{et al.}, 2005; Mandáková
 \emph{et al.}, 2012). Based on 10,000 stochastic character maps
 simulated under an equal rates model of character evolution in life
-history, an average of approximately eight changes from annual to
+history, an average of approximately seven changes from annual to
 perennial and five changes from perennial to annual are observed per
 stochastic character map (Figure \ref{fig:phylogeny}a). These results
 suggest that the ancestral state of \emph{Heliophila} was annual and

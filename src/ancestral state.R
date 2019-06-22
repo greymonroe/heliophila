@@ -4,6 +4,7 @@ require(phytools)
 require(ape)
 require(geiger)
 require(extRemes)
+#setwd("manuscript/") #unhash if running outisde of manuscript build
 
 tree <- read.nexus("../data/TrimmedMCCwoPolytomies.nex")
 ladderize(tree) -> tree

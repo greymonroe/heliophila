@@ -1,9 +1,9 @@
 # Repository for developing the manuscript looking at life history in Heliophila in relation to drought frequency.
 
 /data - contains raw input data files  
-/figures contains figures created by scripts that will be included in the publication . 
-/manuscript contains markdown, bibtex, and formating files to build manuscript . 
-/pictures has a few pictures of specimens . 
+/figures contains figures created by scripts that will be included in the publication  
+/manuscript contains markdown, bibtex, and formating files to build manuscript  
+/pictures has a few pictures of specimens  
 
 to build the manuscript run . 
 `knitr("manuscript/manuscript.rmd")`

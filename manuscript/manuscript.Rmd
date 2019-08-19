@@ -628,7 +628,7 @@ pdf("../figures/maps_drought_examples.pdf", width=3, height=6)
 world <- map_data("world") # we already did this, but we can do it again
 col_scale<-c("white","black")
 
-drought<-raster::raster("~/VHI/raster/VHP.G16.C07.npp.P2015050.VH.nc.grd")
+drought<-raster::raster("../data/VHP.G16.C07.npp.P2015050.VH.nc.grd")
 drought <-crop(drought, rbind(c(12,37),c(-35, -18)))
 
 summer2015<-gplot(drought) + 
@@ -640,7 +640,7 @@ summer2015<-gplot(drought) +
    theme(legend.position = c(1,.3),legend.text=element_text(size=rel(0.6)), legend.title = element_text(size=rel(0.6)), legend.key.size=unit(.2,"line"), legend.background = element_rect(fill=alpha('gray90'), color = "black"), text = element_text(size=8))+
   labs(title="VHI detected drought \n during summer 2015", x="Longitude (°)", y="Latitude (°)")
 
-nondrought<-raster::raster("~/VHI/raster/VHP.G16.C07.NJ.P1999050.VH.hdf.h5.grd")
+nondrought<-raster::raster("../data/VHP.G16.C07.NJ.P1999050.VH.hdf.h5.grd")
 nondrought <-crop(nondrought, rbind(c(12,37),c(-35, -18)))
 
 summer1999<-gplot(nondrought) + 
@@ -652,7 +652,7 @@ summer1999<-gplot(nondrought) +
   theme(legend.position = c(1,.3),legend.text=element_text(size=rel(0.6)), legend.title = element_text(size=rel(0.6)), legend.key.size=unit(.2,"line"), legend.background = element_rect(fill=alpha('gray90'), color = "black"), text = element_text(size=8))+
   labs(title="VHI detected drought \n during summer 1999", x="Longitude (°)", y="Latitude (°)")
 
-typical<-raster::raster("~/VHI/raster/VHP.G16.C07.NP.P2012050.VH.hdf.h5.grd")
+typical<-raster::raster("../data/VHP.G16.C07.NP.P2012050.VH.hdf.h5.grd")
 typical <-crop(typical, rbind(c(12,37),c(-35, -18)))
 
 summer2012<-gplot(typical) + 
